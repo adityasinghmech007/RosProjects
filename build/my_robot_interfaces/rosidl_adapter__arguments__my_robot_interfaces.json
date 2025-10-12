@@ -1,0 +1,12 @@
+{
+  "package_name": "my_robot_interfaces",
+  "non_idl_tuples": [
+    "/home/adi/RosProjects/src/my_robot_interfaces:msg/HardwareStatus.msg",
+    "/home/adi/RosProjects/src/my_robot_interfaces:srv/ComputeRectangleArea.srv",
+    "/home/adi/RosProjects/src/my_robot_interfaces:msg/BatteryStatus.msg",
+    "/home/adi/RosProjects/src/my_robot_interfaces:srv/SetLedStatus.srv",
+    "/home/adi/RosProjects/src/my_robot_interfaces:action/PredatorMovement.action",
+    "/home/adi/RosProjects/src/my_robot_interfaces:msg/PredTurtleLocation.msg",
+    "/home/adi/RosProjects/src/my_robot_interfaces:srv/PreyTurtleLocation.srv"
+  ]
+}

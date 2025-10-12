@@ -1,0 +1,21 @@
+<launch>
+    <arg name="station_params"
+        default = "$(find-pkg-share my_robot_bringup)/config/all_stations.yaml" />
+
+
+    <node pkg="my_py_pkg" exec="robot_news_station" name="robot_news_station_giskard" > 
+        <param from = "$(var station_params)" />
+    </node>
+    <node pkg="my_py_pkg" exec="robot_news_station" name="robot_news_station_bb8" > 
+        <param from = "$(var station_params)" />
+    </node>
+    <node pkg="my_py_pkg" exec="robot_news_station" name="robot_news_station_lander" > 
+        <param from = "$(var station_params)" />
+    </node>
+    <node pkg="my_py_pkg" exec="robot_news_station" name="robot_news_station_cp3o" > 
+        <param from = "$(var station_params)" />
+    </node>
+    <node pkg="my_py_pkg" exec="robot_news_station" name="robot_news_station_daneel" > 
+        <param from = "$(var station_params)" />                                                           
+    </node>
+</launch>

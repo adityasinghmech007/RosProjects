@@ -1,0 +1,35 @@
+[0.529s] Invoking command in '/home/adi/RosProjects/src/my_py_pkg': PYTHONPATH=/home/adi/RosProjects/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adi/RosProjects/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/adi/RosProjects/build/my_py_pkg/build install --record /home/adi/RosProjects/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[0.750s] running egg_info
+[0.751s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.751s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.754s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.754s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.754s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.754s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.754s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.754s] running build
+[0.754s] running build_py
+[0.754s] copying my_py_pkg/add_two_ints_server.py -> /home/adi/RosProjects/build/my_py_pkg/build/lib/my_py_pkg
+[0.754s] copying my_py_pkg/hardware_status_publisher.py -> /home/adi/RosProjects/build/my_py_pkg/build/lib/my_py_pkg
+[0.755s] running install
+[0.755s] running install_lib
+[0.756s] copying /home/adi/RosProjects/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/adi/RosProjects/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.756s] copying /home/adi/RosProjects/build/my_py_pkg/build/lib/my_py_pkg/hardware_status_publisher.py -> /home/adi/RosProjects/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.756s] byte-compiling /home/adi/RosProjects/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-310.pyc
+[0.757s] byte-compiling /home/adi/RosProjects/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/hardware_status_publisher.py to hardware_status_publisher.cpython-310.pyc
+[0.758s] running install_data
+[0.760s] running install_egg_info
+[0.760s] removing '/home/adi/RosProjects/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.761s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/adi/RosProjects/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[0.762s] running install_scripts
+[0.780s] Installing add_two_ints_client script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[0.782s] Installing add_two_ints_client_no_oop script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[0.782s] Installing add_two_ints_server script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[0.782s] Installing hardware_status_publisher script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[0.782s] Installing number_counter script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[0.782s] Installing number_publisher script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[0.782s] Installing py_node script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[0.782s] Installing robot_news_station script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[0.782s] Installing smartphone script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[0.783s] writing list of installed files to '/home/adi/RosProjects/build/my_py_pkg/install.log'
+[0.801s] Invoked command in '/home/adi/RosProjects/src/my_py_pkg' returned '0': PYTHONPATH=/home/adi/RosProjects/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adi/RosProjects/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/adi/RosProjects/build/my_py_pkg/build install --record /home/adi/RosProjects/build/my_py_pkg/install.log --single-version-externally-managed install_data

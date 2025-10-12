@@ -1,0 +1,2 @@
+Invoking command in '/home/adi/RosProjects/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adi/RosProjects/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/adi/RosProjects/build/my_robot_interfaces -- -j4 -l4
+Invoked command in '/home/adi/RosProjects/build/my_robot_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adi/RosProjects/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/adi/RosProjects/build/my_robot_interfaces -- -j4 -l4

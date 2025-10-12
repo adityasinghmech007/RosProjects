@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from my_robot_interfaces/action/PredatorMovement.action
+// generated code does not contain a copyright notice
+
+
+module my_robot_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Request: Target Turtle for Predator Turtle")
+    struct PredatorMovement_Goal {
+      double target_x;
+
+      double target_y;
+    };
+    struct PredatorMovement_Result {
+      @verbatim (language="comment", text=
+        "Respond: Did The Predeator Turtle Reach the Prey Or not")
+      boolean success;
+    };
+    @verbatim (language="comment", text=
+      "Feedback: What is the Current Location of Predator Turtle")
+    struct PredatorMovement_Feedback {
+      double current_x_position;
+
+      double current_y_position;
+    };
+  };
+};

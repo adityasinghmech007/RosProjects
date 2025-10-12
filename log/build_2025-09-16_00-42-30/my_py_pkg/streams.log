@@ -1,0 +1,30 @@
+[0.520s] Invoking command in '/home/adi/RosProjects/build/my_py_pkg': PYTHONPATH=/home/adi/RosProjects/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adi/RosProjects/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/adi/RosProjects/build/my_py_pkg/build --no-deps symlink_data --force
+[0.742s] running develop
+[0.887s] running egg_info
+[0.887s] writing my_py_pkg.egg-info/PKG-INFO
+[0.888s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[0.888s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[0.888s] writing requirements to my_py_pkg.egg-info/requires.txt
+[0.888s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[0.890s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.891s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.892s] running build_ext
+[0.893s] Creating /home/adi/RosProjects/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[0.893s] Installing add_two_ints_client script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[0.894s] Installing add_two_ints_client_no_oop script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[0.894s] Installing add_two_ints_server script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[0.894s] Installing battery_charge_status script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[0.894s] Installing battery_monitor script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[0.894s] Installing hardware_status_publisher script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[0.894s] Installing led_panel_node script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[0.894s] Installing number_counter script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[0.895s] Installing number_publisher script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[0.895s] Installing py_node script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[0.895s] Installing robot_news_station script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[0.895s] Installing smartphone script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[0.895s] 
+[0.895s] Installed /home/adi/RosProjects/build/my_py_pkg
+[0.895s] running symlink_data
+[0.895s] symbolically linking /home/adi/RosProjects/build/my_py_pkg/resource/my_py_pkg -> /home/adi/RosProjects/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.895s] symbolically linking /home/adi/RosProjects/build/my_py_pkg/package.xml -> /home/adi/RosProjects/install/my_py_pkg/share/my_py_pkg
+[0.921s] Invoked command in '/home/adi/RosProjects/build/my_py_pkg' returned '0': PYTHONPATH=/home/adi/RosProjects/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adi/RosProjects/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/adi/RosProjects/build/my_py_pkg/build --no-deps symlink_data --force

@@ -1,0 +1,21 @@
+robot_news_station_daneel:
+  ros__parameters:
+    robot_name : "daneel"
+
+
+robot_news_station_cp30:
+  ros__parameters:
+    robot_name : "cp3o"
+
+robot_news_station_bb8:
+
+  ros__parameters:
+    robot_name : "bb8"
+
+robot_news_station_giskard:
+  ros__parameters:
+    robot_name : "giskard"
+
+robot_news_station_lander:
+  ros__parameters:
+    robot_name : "lander"

@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/my_robot_interfaces__cpp"
+  "rosidl_generator_cpp/my_robot_interfaces/action/detail/predator_movement__builder.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/action/detail/predator_movement__struct.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/action/detail/predator_movement__traits.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/action/detail/predator_movement__type_support.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/action/predator_movement.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/msg/battery_status.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/msg/detail/battery_status__builder.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/msg/detail/battery_status__struct.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/msg/detail/battery_status__traits.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/msg/detail/battery_status__type_support.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/msg/detail/hardware_status__builder.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/msg/detail/hardware_status__struct.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/msg/detail/hardware_status__traits.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/msg/detail/hardware_status__type_support.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/msg/detail/pred_turtle_location__builder.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/msg/detail/pred_turtle_location__struct.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/msg/detail/pred_turtle_location__traits.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/msg/detail/pred_turtle_location__type_support.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/msg/pred_turtle_location.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/srv/compute_rectangle_area.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__builder.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__traits.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/srv/detail/prey_turtle_location__builder.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/srv/detail/prey_turtle_location__struct.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/srv/detail/prey_turtle_location__traits.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/srv/detail/prey_turtle_location__type_support.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/srv/detail/set_led_status__builder.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/srv/detail/set_led_status__struct.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/srv/detail/set_led_status__traits.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/srv/detail/set_led_status__type_support.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/srv/prey_turtle_location.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/srv/set_led_status.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/my_robot_interfaces__cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

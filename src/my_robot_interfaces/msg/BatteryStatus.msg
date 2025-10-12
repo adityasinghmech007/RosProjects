@@ -1,0 +1,2 @@
+float64 batterylevel
+string status_message

@@ -1,0 +1,2 @@
+Invoking command in '/home/adi/RosProjects/build/my_robot_interfaces': /usr/bin/cmake /home/adi/RosProjects/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/adi/RosProjects/install/my_robot_interfaces
+Invoked command in '/home/adi/RosProjects/build/my_robot_interfaces' returned '1': /usr/bin/cmake /home/adi/RosProjects/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/adi/RosProjects/install/my_robot_interfaces

@@ -1,0 +1,6 @@
+# Request 
+int64 number_to_blink
+---
+# Response
+bool success
+string message

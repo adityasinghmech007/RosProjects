@@ -1,0 +1,43 @@
+[0.605s] Invoking command in '/home/adi/RosProjects/src/my_py_pkg': CMAKE_PREFIX_PATH=/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/RosProjects/install/my_robot_bringup:/home/adi/install/my_robot_bringup:/home/adi/install/my_robot_interfaces:/home/adi/install/my_cpp_pkg PYTHONPATH=/home/adi/RosProjects/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adi/RosProjects/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/adi/RosProjects/build/my_py_pkg/build install --record /home/adi/RosProjects/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[0.813s] running egg_info
+[0.813s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.813s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.813s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.814s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.814s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.816s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.819s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.819s] running build
+[0.819s] running build_py
+[0.820s] copying my_py_pkg/PredatorTurtle.py -> /home/adi/RosProjects/build/my_py_pkg/build/lib/my_py_pkg
+[0.820s] copying my_py_pkg/PreyTurtle.py -> /home/adi/RosProjects/build/my_py_pkg/build/lib/my_py_pkg
+[0.821s] running install
+[0.821s] running install_lib
+[0.822s] copying /home/adi/RosProjects/build/my_py_pkg/build/lib/my_py_pkg/PredatorTurtle.py -> /home/adi/RosProjects/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.822s] copying /home/adi/RosProjects/build/my_py_pkg/build/lib/my_py_pkg/PreyTurtle.py -> /home/adi/RosProjects/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.822s] byte-compiling /home/adi/RosProjects/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/PredatorTurtle.py to PredatorTurtle.cpython-310.pyc
+[0.823s]   File "/home/adi/RosProjects/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/PredatorTurtle.py", line 23
+[0.823s]     msg.x_coordinate = 
+[0.823s]                        ^
+[0.823s] SyntaxError: invalid syntax
+[0.823s] 
+[0.823s] byte-compiling /home/adi/RosProjects/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/PreyTurtle.py to PreyTurtle.cpython-310.pyc
+[0.823s] running install_data
+[0.823s] running install_egg_info
+[0.825s] removing '/home/adi/RosProjects/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.825s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/adi/RosProjects/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[0.826s] running install_scripts
+[0.845s] Installing add_two_ints_client script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[0.845s] Installing add_two_ints_client_no_oop script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[0.845s] Installing add_two_ints_server script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[0.845s] Installing battery_charge_status script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[0.846s] Installing battery_monitor script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[0.846s] Installing hardware_status_publisher script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[0.846s] Installing led_panel_node script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[0.846s] Installing number_counter script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[0.847s] Installing number_publisher script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[0.847s] Installing py_node script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[0.847s] Installing robot_news_station script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[0.847s] Installing smartphone script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[0.847s] writing list of installed files to '/home/adi/RosProjects/build/my_py_pkg/install.log'
+[0.867s] Invoked command in '/home/adi/RosProjects/src/my_py_pkg' returned '0': CMAKE_PREFIX_PATH=/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/RosProjects/install/my_robot_bringup:/home/adi/install/my_robot_bringup:/home/adi/install/my_robot_interfaces:/home/adi/install/my_cpp_pkg PYTHONPATH=/home/adi/RosProjects/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adi/RosProjects/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/adi/RosProjects/build/my_py_pkg/build install --record /home/adi/RosProjects/build/my_py_pkg/install.log --single-version-externally-managed install_data

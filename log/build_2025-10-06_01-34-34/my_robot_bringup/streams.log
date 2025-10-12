@@ -1,0 +1,33 @@
+[0.012s] Invoking command in '/home/adi/RosProjects/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/adi/RosProjects/install/my_py_pkg:/home/adi/RosProjects/install/my_robot_bringup:/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/install/my_robot_bringup:/home/adi/install/my_py_pkg:/home/adi/install/my_robot_interfaces:/home/adi/install/my_cpp_pkg:/opt/ros/humble CMAKE_PREFIX_PATH=/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/RosProjects/install/my_robot_bringup:/home/adi/install/my_robot_bringup:/home/adi/install/my_robot_interfaces:/home/adi/install/my_cpp_pkg:/home/adi/RosProjects/install/my_py_pkg:/home/adi/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/adi/RosProjects/build/my_robot_bringup -- -j4 -l4
+[0.048s] Invoked command in '/home/adi/RosProjects/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/adi/RosProjects/install/my_py_pkg:/home/adi/RosProjects/install/my_robot_bringup:/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/install/my_robot_bringup:/home/adi/install/my_py_pkg:/home/adi/install/my_robot_interfaces:/home/adi/install/my_cpp_pkg:/opt/ros/humble CMAKE_PREFIX_PATH=/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/RosProjects/install/my_robot_bringup:/home/adi/install/my_robot_bringup:/home/adi/install/my_robot_interfaces:/home/adi/install/my_cpp_pkg:/home/adi/RosProjects/install/my_py_pkg:/home/adi/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/adi/RosProjects/build/my_robot_bringup -- -j4 -l4
+[0.049s] Invoking command in '/home/adi/RosProjects/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/adi/RosProjects/install/my_py_pkg:/home/adi/RosProjects/install/my_robot_bringup:/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/install/my_robot_bringup:/home/adi/install/my_py_pkg:/home/adi/install/my_robot_interfaces:/home/adi/install/my_cpp_pkg:/opt/ros/humble CMAKE_PREFIX_PATH=/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/RosProjects/install/my_robot_bringup:/home/adi/install/my_robot_bringup:/home/adi/install/my_robot_interfaces:/home/adi/install/my_cpp_pkg:/home/adi/RosProjects/install/my_py_pkg:/home/adi/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/adi/RosProjects/build/my_robot_bringup
+[0.060s] -- Install configuration: ""
+[0.060s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/launch
+[0.060s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/launch/number_app.launch.py
+[0.060s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/launch/number_app_from_python.launch.xml
+[0.060s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/launch/number_app.launch.xml
+[0.060s] -- Installing: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/launch/robot_news_station.launch.xml
+[0.060s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/config
+[0.060s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/config/lander.yaml
+[0.060s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/config/cp30.yaml
+[0.061s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/config/all_stations.yaml
+[0.061s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/config/number_app.yaml
+[0.061s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/config/bb8.yaml
+[0.061s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/config/daneel.yaml
+[0.061s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/config/giskard.yaml
+[0.061s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_bringup/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup
+[0.061s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_bringup/share/ament_index/resource_index/parent_prefix_path/my_robot_bringup
+[0.061s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.sh
+[0.061s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.dsv
+[0.061s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/environment/path.sh
+[0.061s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/environment/path.dsv
+[0.062s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/local_setup.bash
+[0.062s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/local_setup.sh
+[0.062s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/local_setup.zsh
+[0.062s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/local_setup.dsv
+[0.062s] -- Installing: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/package.dsv
+[0.062s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_bringup/share/ament_index/resource_index/packages/my_robot_bringup
+[0.062s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig.cmake
+[0.062s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig-version.cmake
+[0.062s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/package.xml
+[0.062s] Invoked command in '/home/adi/RosProjects/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/adi/RosProjects/install/my_py_pkg:/home/adi/RosProjects/install/my_robot_bringup:/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/install/my_robot_bringup:/home/adi/install/my_py_pkg:/home/adi/install/my_robot_interfaces:/home/adi/install/my_cpp_pkg:/opt/ros/humble CMAKE_PREFIX_PATH=/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/RosProjects/install/my_robot_bringup:/home/adi/install/my_robot_bringup:/home/adi/install/my_robot_interfaces:/home/adi/install/my_cpp_pkg:/home/adi/RosProjects/install/my_py_pkg:/home/adi/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/adi/RosProjects/build/my_robot_bringup
