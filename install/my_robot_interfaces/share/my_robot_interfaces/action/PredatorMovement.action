@@ -1,6 +1,6 @@
-#Request: Target Turtle for Predator Turtle
+#Request: Location of Prey Turtle for Predator Turtle
 
-float64 target_x
+float64 target_x    
 float64 target_y
 ---
 

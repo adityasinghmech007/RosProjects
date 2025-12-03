@@ -1,0 +1,7 @@
+#Request
+
+bool spawnaprey
+---
+#Response
+bool isthepreyalive
+

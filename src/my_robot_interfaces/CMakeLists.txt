@@ -14,8 +14,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/BatteryStatus.msg"
   "srv/SetLedStatus.srv"
   "action/PredatorMovement.action"
-  "msg/PredTurtleLocation.msg"
-  "srv/PreyTurtleLocation.srv"
+  "srv/SpawnTurtle.srv"
 
  )
 ament_export_dependencies(rosidl_default_runtime)

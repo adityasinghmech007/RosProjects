@@ -1,0 +1,5 @@
+  File "/home/adi/RosProjects/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/PredatorTurtle.py", line 37
+    theta = math.cos(ratratio = ((prey_x*predator_x)+(prey_y*predator_y))/(math.sqrt(((prey_x**2)+(prey_y**2))((predator_x**2)+(predator_y**2))))
+                    ^
+SyntaxError: '(' was never closed
+

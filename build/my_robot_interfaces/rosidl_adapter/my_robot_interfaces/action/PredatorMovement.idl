@@ -6,7 +6,7 @@
 module my_robot_interfaces {
   module action {
     @verbatim (language="comment", text=
-      "Request: Target Turtle for Predator Turtle")
+      "Request: Location of Prey Turtle for Predator Turtle")
     struct PredatorMovement_Goal {
       double target_x;
 

@@ -10,15 +10,13 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/my_robot_interfaces/msg/_battery_status_s.c"
   "../rosidl_generator_py/my_robot_interfaces/msg/_hardware_status.py"
   "../rosidl_generator_py/my_robot_interfaces/msg/_hardware_status_s.c"
-  "../rosidl_generator_py/my_robot_interfaces/msg/_pred_turtle_location.py"
-  "../rosidl_generator_py/my_robot_interfaces/msg/_pred_turtle_location_s.c"
   "../rosidl_generator_py/my_robot_interfaces/srv/__init__.py"
   "../rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area.py"
   "../rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area_s.c"
-  "../rosidl_generator_py/my_robot_interfaces/srv/_prey_turtle_location.py"
-  "../rosidl_generator_py/my_robot_interfaces/srv/_prey_turtle_location_s.c"
   "../rosidl_generator_py/my_robot_interfaces/srv/_set_led_status.py"
   "../rosidl_generator_py/my_robot_interfaces/srv/_set_led_status_s.c"
+  "../rosidl_generator_py/my_robot_interfaces/srv/_spawn_turtle.py"
+  "../rosidl_generator_py/my_robot_interfaces/srv/_spawn_turtle_s.c"
   "CMakeFiles/my_robot_interfaces__py"
 )
 

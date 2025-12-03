@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_robot_interfaces/srv/SpawnTurtle.srv
+// generated code does not contain a copyright notice
+
+
+module my_robot_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request")
+    struct SpawnTurtle_Request {
+      boolean spawnaprey;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct SpawnTurtle_Response {
+      boolean isthepreyalive;
+    };
+  };
+};

@@ -6,7 +6,6 @@
     "/home/adi/RosProjects/src/my_robot_interfaces:msg/BatteryStatus.msg",
     "/home/adi/RosProjects/src/my_robot_interfaces:srv/SetLedStatus.srv",
     "/home/adi/RosProjects/src/my_robot_interfaces:action/PredatorMovement.action",
-    "/home/adi/RosProjects/src/my_robot_interfaces:msg/PredTurtleLocation.msg",
-    "/home/adi/RosProjects/src/my_robot_interfaces:srv/PreyTurtleLocation.srv"
+    "/home/adi/RosProjects/src/my_robot_interfaces:srv/SpawnTurtle.srv"
   ]
 }

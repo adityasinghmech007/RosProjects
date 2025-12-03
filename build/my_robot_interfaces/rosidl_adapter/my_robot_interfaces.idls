@@ -3,5 +3,4 @@
 /home/adi/RosProjects/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/BatteryStatus.idl
 /home/adi/RosProjects/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLedStatus.idl
 /home/adi/RosProjects/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:action/PredatorMovement.idl
-/home/adi/RosProjects/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/PredTurtleLocation.idl
-/home/adi/RosProjects/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/PreyTurtleLocation.idl
+/home/adi/RosProjects/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SpawnTurtle.idl

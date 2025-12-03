@@ -8,8 +8,7 @@
     "/home/adi/RosProjects/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/BatteryStatus.idl",
     "/home/adi/RosProjects/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLedStatus.idl",
     "/home/adi/RosProjects/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:action/PredatorMovement.idl",
-    "/home/adi/RosProjects/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/PredTurtleLocation.idl",
-    "/home/adi/RosProjects/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/PreyTurtleLocation.idl"
+    "/home/adi/RosProjects/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SpawnTurtle.idl"
   ],
   "ros_interface_dependencies": [
     "action_msgs:/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
@@ -39,8 +38,7 @@
     "/home/adi/RosProjects/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/BatteryStatus.idl",
     "/home/adi/RosProjects/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/SetLedStatus.idl",
     "/home/adi/RosProjects/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/action/PredatorMovement.idl",
-    "/home/adi/RosProjects/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/PredTurtleLocation.idl",
-    "/home/adi/RosProjects/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/PreyTurtleLocation.idl",
+    "/home/adi/RosProjects/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/SpawnTurtle.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalStatus.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl",
