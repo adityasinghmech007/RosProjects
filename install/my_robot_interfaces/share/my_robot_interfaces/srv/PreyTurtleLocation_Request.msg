@@ -1,3 +1,0 @@
-# Information about Prey Turtle Location
-float64 x_coordinate
-float64 y_coordinate

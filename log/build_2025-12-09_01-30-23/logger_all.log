@@ -1,0 +1,299 @@
+[0.098s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.099s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x70265a666980>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x70265a6664d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x70265a6664d0>>, mixin_verb=('build',))
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.255s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/adi/RosProjects'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg) by extensions ['colcon_pkg']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg) by extension 'colcon_pkg'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg) by extensions ['colcon_meta']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg) by extension 'colcon_meta'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg) by extensions ['ros']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg) by extension 'ros'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg) by extensions ['cmake', 'python']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg) by extension 'cmake'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg) by extension 'python'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg) by extensions ['python_setup_py']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg) by extension 'python_setup_py'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg/my_py_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg/my_py_pkg) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg/my_py_pkg) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg/my_py_pkg) by extensions ['colcon_pkg']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg/my_py_pkg) by extension 'colcon_pkg'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg/my_py_pkg) by extensions ['colcon_meta']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg/my_py_pkg) by extension 'colcon_meta'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg/my_py_pkg) by extensions ['ros']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg/my_py_pkg) by extension 'ros'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg/my_py_pkg) by extensions ['cmake', 'python']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg/my_py_pkg) by extension 'cmake'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg/my_py_pkg) by extension 'python'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg/my_py_pkg) by extensions ['python_setup_py']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg/my_py_pkg) by extension 'python_setup_py'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore_ament_install'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_pkg']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_pkg'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_meta']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ros'
+[0.270s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_py_pkg' with type 'ros.ament_python' and name 'my_py_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ros'
+[0.270s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_bringup' with type 'ros.ament_cmake' and name 'my_robot_bringup'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['colcon_pkg']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'colcon_pkg'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['colcon_meta']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'colcon_meta'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ros'
+[0.271s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_interfaces' with type 'ros.ament_cmake' and name 'my_robot_interfaces'
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.298s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/adi/RosProjects/install/my_robot_bringup' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.298s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/adi/RosProjects/install/my_py_pkg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.298s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/adi/RosProjects/install/my_robot_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.298s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/adi/RosProjects/install/my_robot_bringup' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.298s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/adi/RosProjects/install/my_robot_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.298s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/adi/RosProjects/install
+[0.299s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/adi/install
+[0.300s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.333s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adi/RosProjects/build/my_robot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adi/RosProjects/install/my_robot_interfaces', 'merge_install': False, 'path': '/home/adi/RosProjects/src/my_robot_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_args' from command line to 'None'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target' from command line to 'None'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.334s] DEBUG:colcon.colcon_core.verb:Building package 'my_py_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adi/RosProjects/build/my_py_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adi/RosProjects/install/my_py_pkg', 'merge_install': False, 'path': '/home/adi/RosProjects/src/my_py_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.334s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adi/RosProjects/build/my_robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adi/RosProjects/install/my_robot_bringup', 'merge_install': False, 'path': '/home/adi/RosProjects/src/my_robot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.335s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.336s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.336s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adi/RosProjects/src/my_robot_interfaces' with build type 'ament_cmake'
+[0.336s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adi/RosProjects/src/my_robot_interfaces'
+[0.338s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.338s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.338s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adi/RosProjects/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adi/RosProjects/install/my_py_pkg:/home/adi/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/adi/RosProjects/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/adi/RosProjects/install/my_robot_interfaces
+[1.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adi/RosProjects/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adi/RosProjects/install/my_py_pkg:/home/adi/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/adi/RosProjects/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/adi/RosProjects/install/my_robot_interfaces
+[1.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adi/RosProjects/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adi/RosProjects/install/my_py_pkg:/home/adi/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/adi/RosProjects/build/my_robot_interfaces -- -j4 -l4
+[8.155s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adi/RosProjects/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adi/RosProjects/install/my_py_pkg:/home/adi/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/adi/RosProjects/build/my_robot_interfaces -- -j4 -l4
+[8.164s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adi/RosProjects/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adi/RosProjects/install/my_py_pkg:/home/adi/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/adi/RosProjects/build/my_robot_interfaces
+[8.269s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_interfaces)
+[8.274s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adi/RosProjects/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adi/RosProjects/install/my_py_pkg:/home/adi/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/adi/RosProjects/build/my_robot_interfaces
+[8.276s] Level 1:colcon.colcon_core.environment:checking '/home/adi/RosProjects/install/my_robot_interfaces' for CMake module files
+[8.276s] Level 1:colcon.colcon_core.environment:checking '/home/adi/RosProjects/install/my_robot_interfaces' for CMake config files
+[8.277s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'cmake_prefix_path')
+[8.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.ps1'
+[8.277s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.dsv'
+[8.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.sh'
+[8.279s] Level 1:colcon.colcon_core.environment:checking '/home/adi/RosProjects/install/my_robot_interfaces/lib'
+[8.279s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'ld_library_path_lib')
+[8.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.ps1'
+[8.279s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.dsv'
+[8.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.sh'
+[8.280s] Level 1:colcon.colcon_core.environment:checking '/home/adi/RosProjects/install/my_robot_interfaces/bin'
+[8.280s] Level 1:colcon.colcon_core.environment:checking '/home/adi/RosProjects/install/my_robot_interfaces/lib/pkgconfig/my_robot_interfaces.pc'
+[8.280s] Level 1:colcon.colcon_core.environment:checking '/home/adi/RosProjects/install/my_robot_interfaces/lib/python3.10/site-packages'
+[8.280s] Level 1:colcon.colcon_core.environment:checking '/home/adi/RosProjects/install/my_robot_interfaces/bin'
+[8.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/package.ps1'
+[8.281s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv'
+[8.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/package.sh'
+[8.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/package.bash'
+[8.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/package.zsh'
+[8.284s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adi/RosProjects/install/my_robot_interfaces/share/colcon-core/packages/my_robot_interfaces)
+[8.284s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_interfaces)
+[8.285s] Level 1:colcon.colcon_core.environment:checking '/home/adi/RosProjects/install/my_robot_interfaces' for CMake module files
+[8.285s] Level 1:colcon.colcon_core.environment:checking '/home/adi/RosProjects/install/my_robot_interfaces' for CMake config files
+[8.286s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'cmake_prefix_path')
+[8.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.ps1'
+[8.286s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.dsv'
+[8.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.sh'
+[8.287s] Level 1:colcon.colcon_core.environment:checking '/home/adi/RosProjects/install/my_robot_interfaces/lib'
+[8.287s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'ld_library_path_lib')
+[8.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.ps1'
+[8.288s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.dsv'
+[8.288s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.sh'
+[8.289s] Level 1:colcon.colcon_core.environment:checking '/home/adi/RosProjects/install/my_robot_interfaces/bin'
+[8.289s] Level 1:colcon.colcon_core.environment:checking '/home/adi/RosProjects/install/my_robot_interfaces/lib/pkgconfig/my_robot_interfaces.pc'
+[8.289s] Level 1:colcon.colcon_core.environment:checking '/home/adi/RosProjects/install/my_robot_interfaces/lib/python3.10/site-packages'
+[8.289s] Level 1:colcon.colcon_core.environment:checking '/home/adi/RosProjects/install/my_robot_interfaces/bin'
+[8.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/package.ps1'
+[8.290s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv'
+[8.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/package.sh'
+[8.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/package.bash'
+[8.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/package.zsh'
+[8.292s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adi/RosProjects/install/my_robot_interfaces/share/colcon-core/packages/my_robot_interfaces)
+[8.292s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/adi/RosProjects/src/my_py_pkg' with build type 'ament_python'
+[8.292s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_py_pkg', 'ament_prefix_path')
+[8.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adi/RosProjects/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.ps1'
+[8.294s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adi/RosProjects/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.dsv'
+[8.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adi/RosProjects/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.sh'
+[8.295s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.296s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.523s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/adi/RosProjects/src/my_py_pkg'
+[8.523s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.523s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adi/RosProjects/src/my_py_pkg': CMAKE_PREFIX_PATH=/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/RosProjects/install/my_robot_bringup:/home/adi/install/my_robot_bringup:/home/adi/install/my_robot_interfaces:/home/adi/install/my_cpp_pkg PYTHONPATH=/home/adi/RosProjects/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adi/RosProjects/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/adi/RosProjects/build/my_py_pkg/build install --record /home/adi/RosProjects/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[9.073s] Level 1:colcon.colcon_core.environment:checking '/home/adi/RosProjects/install/my_py_pkg' for CMake module files
+[9.074s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adi/RosProjects/src/my_py_pkg' returned '0': CMAKE_PREFIX_PATH=/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/RosProjects/install/my_robot_bringup:/home/adi/install/my_robot_bringup:/home/adi/install/my_robot_interfaces:/home/adi/install/my_cpp_pkg PYTHONPATH=/home/adi/RosProjects/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adi/RosProjects/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/adi/RosProjects/build/my_py_pkg/build install --record /home/adi/RosProjects/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[9.074s] Level 1:colcon.colcon_core.environment:checking '/home/adi/RosProjects/install/my_py_pkg' for CMake config files
+[9.075s] Level 1:colcon.colcon_core.environment:checking '/home/adi/RosProjects/install/my_py_pkg/lib'
+[9.075s] Level 1:colcon.colcon_core.environment:checking '/home/adi/RosProjects/install/my_py_pkg/bin'
+[9.075s] Level 1:colcon.colcon_core.environment:checking '/home/adi/RosProjects/install/my_py_pkg/lib/pkgconfig/my_py_pkg.pc'
+[9.075s] Level 1:colcon.colcon_core.environment:checking '/home/adi/RosProjects/install/my_py_pkg/lib/python3.10/site-packages'
+[9.075s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_py_pkg', 'pythonpath')
+[9.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adi/RosProjects/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.ps1'
+[9.076s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adi/RosProjects/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.dsv'
+[9.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adi/RosProjects/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.sh'
+[9.076s] Level 1:colcon.colcon_core.environment:checking '/home/adi/RosProjects/install/my_py_pkg/bin'
+[9.076s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_py_pkg)
+[9.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/adi/RosProjects/install/my_py_pkg/share/my_py_pkg/package.ps1'
+[9.077s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adi/RosProjects/install/my_py_pkg/share/my_py_pkg/package.dsv'
+[9.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/adi/RosProjects/install/my_py_pkg/share/my_py_pkg/package.sh'
+[9.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/adi/RosProjects/install/my_py_pkg/share/my_py_pkg/package.bash'
+[9.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/adi/RosProjects/install/my_py_pkg/share/my_py_pkg/package.zsh'
+[9.079s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adi/RosProjects/install/my_py_pkg/share/colcon-core/packages/my_py_pkg)
+[9.079s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adi/RosProjects/src/my_robot_bringup' with build type 'ament_cmake'
+[9.079s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adi/RosProjects/src/my_robot_bringup'
+[9.079s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.079s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.090s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adi/RosProjects/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/adi/RosProjects/install/my_py_pkg:/home/adi/RosProjects/install/my_robot_bringup:/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/install/my_robot_bringup:/home/adi/install/my_py_pkg:/home/adi/install/my_robot_interfaces:/home/adi/install/my_cpp_pkg:/opt/ros/humble CMAKE_PREFIX_PATH=/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/RosProjects/install/my_robot_bringup:/home/adi/install/my_robot_bringup:/home/adi/install/my_robot_interfaces:/home/adi/install/my_cpp_pkg:/home/adi/RosProjects/install/my_py_pkg:/home/adi/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/adi/RosProjects/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/adi/RosProjects/install/my_robot_bringup
+[9.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adi/RosProjects/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/adi/RosProjects/install/my_py_pkg:/home/adi/RosProjects/install/my_robot_bringup:/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/install/my_robot_bringup:/home/adi/install/my_py_pkg:/home/adi/install/my_robot_interfaces:/home/adi/install/my_cpp_pkg:/opt/ros/humble CMAKE_PREFIX_PATH=/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/RosProjects/install/my_robot_bringup:/home/adi/install/my_robot_bringup:/home/adi/install/my_robot_interfaces:/home/adi/install/my_cpp_pkg:/home/adi/RosProjects/install/my_py_pkg:/home/adi/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/adi/RosProjects/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/adi/RosProjects/install/my_robot_bringup
+[9.633s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adi/RosProjects/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/adi/RosProjects/install/my_py_pkg:/home/adi/RosProjects/install/my_robot_bringup:/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/install/my_robot_bringup:/home/adi/install/my_py_pkg:/home/adi/install/my_robot_interfaces:/home/adi/install/my_cpp_pkg:/opt/ros/humble CMAKE_PREFIX_PATH=/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/RosProjects/install/my_robot_bringup:/home/adi/install/my_robot_bringup:/home/adi/install/my_robot_interfaces:/home/adi/install/my_cpp_pkg:/home/adi/RosProjects/install/my_py_pkg:/home/adi/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/adi/RosProjects/build/my_robot_bringup -- -j4 -l4
+[9.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adi/RosProjects/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/adi/RosProjects/install/my_py_pkg:/home/adi/RosProjects/install/my_robot_bringup:/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/install/my_robot_bringup:/home/adi/install/my_py_pkg:/home/adi/install/my_robot_interfaces:/home/adi/install/my_cpp_pkg:/opt/ros/humble CMAKE_PREFIX_PATH=/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/RosProjects/install/my_robot_bringup:/home/adi/install/my_robot_bringup:/home/adi/install/my_robot_interfaces:/home/adi/install/my_cpp_pkg:/home/adi/RosProjects/install/my_py_pkg:/home/adi/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/adi/RosProjects/build/my_robot_bringup -- -j4 -l4
+[9.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adi/RosProjects/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/adi/RosProjects/install/my_py_pkg:/home/adi/RosProjects/install/my_robot_bringup:/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/install/my_robot_bringup:/home/adi/install/my_py_pkg:/home/adi/install/my_robot_interfaces:/home/adi/install/my_cpp_pkg:/opt/ros/humble CMAKE_PREFIX_PATH=/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/RosProjects/install/my_robot_bringup:/home/adi/install/my_robot_bringup:/home/adi/install/my_robot_interfaces:/home/adi/install/my_cpp_pkg:/home/adi/RosProjects/install/my_py_pkg:/home/adi/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/adi/RosProjects/build/my_robot_bringup
+[9.683s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[9.683s] Level 1:colcon.colcon_core.environment:checking '/home/adi/RosProjects/install/my_robot_bringup' for CMake module files
+[9.684s] Level 1:colcon.colcon_core.environment:checking '/home/adi/RosProjects/install/my_robot_bringup' for CMake config files
+[9.684s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'cmake_prefix_path')
+[9.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.ps1'
+[9.685s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.dsv'
+[9.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adi/RosProjects/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/adi/RosProjects/install/my_py_pkg:/home/adi/RosProjects/install/my_robot_bringup:/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/install/my_robot_bringup:/home/adi/install/my_py_pkg:/home/adi/install/my_robot_interfaces:/home/adi/install/my_cpp_pkg:/opt/ros/humble CMAKE_PREFIX_PATH=/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/RosProjects/install/my_robot_bringup:/home/adi/install/my_robot_bringup:/home/adi/install/my_robot_interfaces:/home/adi/install/my_cpp_pkg:/home/adi/RosProjects/install/my_py_pkg:/home/adi/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/adi/RosProjects/build/my_robot_bringup
+[9.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.sh'
+[9.686s] Level 1:colcon.colcon_core.environment:checking '/home/adi/RosProjects/install/my_robot_bringup/bin'
+[9.686s] Level 1:colcon.colcon_core.environment:checking '/home/adi/RosProjects/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[9.686s] Level 1:colcon.colcon_core.environment:checking '/home/adi/RosProjects/install/my_robot_bringup/lib/python3.10/site-packages'
+[9.686s] Level 1:colcon.colcon_core.environment:checking '/home/adi/RosProjects/install/my_robot_bringup/bin'
+[9.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[9.687s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[9.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[9.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[9.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[9.689s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adi/RosProjects/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[9.689s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[9.689s] Level 1:colcon.colcon_core.environment:checking '/home/adi/RosProjects/install/my_robot_bringup' for CMake module files
+[9.690s] Level 1:colcon.colcon_core.environment:checking '/home/adi/RosProjects/install/my_robot_bringup' for CMake config files
+[9.690s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'cmake_prefix_path')
+[9.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.ps1'
+[9.690s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.dsv'
+[9.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.sh'
+[9.691s] Level 1:colcon.colcon_core.environment:checking '/home/adi/RosProjects/install/my_robot_bringup/bin'
+[9.691s] Level 1:colcon.colcon_core.environment:checking '/home/adi/RosProjects/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[9.692s] Level 1:colcon.colcon_core.environment:checking '/home/adi/RosProjects/install/my_robot_bringup/lib/python3.10/site-packages'
+[9.692s] Level 1:colcon.colcon_core.environment:checking '/home/adi/RosProjects/install/my_robot_bringup/bin'
+[9.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[9.692s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[9.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[9.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[9.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[9.694s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adi/RosProjects/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[9.694s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.695s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.695s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.695s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.700s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.700s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.700s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.713s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.714s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adi/RosProjects/install/local_setup.ps1'
+[9.715s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/adi/RosProjects/install/_local_setup_util_ps1.py'
+[9.716s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adi/RosProjects/install/setup.ps1'
+[9.717s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adi/RosProjects/install/local_setup.sh'
+[9.717s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/adi/RosProjects/install/_local_setup_util_sh.py'
+[9.717s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adi/RosProjects/install/setup.sh'
+[9.719s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adi/RosProjects/install/local_setup.bash'
+[9.719s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adi/RosProjects/install/setup.bash'
+[9.720s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adi/RosProjects/install/local_setup.zsh'
+[9.720s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adi/RosProjects/install/setup.zsh'

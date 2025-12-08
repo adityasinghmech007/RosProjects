@@ -210,9 +210,6 @@ CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_
  /home/adi/RosProjects/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/battery_status__type_support.h \
  /home/adi/RosProjects/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/battery_status__struct.h \
  /home/adi/RosProjects/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/battery_status__functions.h \
- /home/adi/RosProjects/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/pred_turtle_location__type_support.h \
- /home/adi/RosProjects/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/pred_turtle_location__struct.h \
- /home/adi/RosProjects/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/pred_turtle_location__functions.h \
  /home/adi/RosProjects/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h \
  /home/adi/RosProjects/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h \
  /home/adi/RosProjects/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h \

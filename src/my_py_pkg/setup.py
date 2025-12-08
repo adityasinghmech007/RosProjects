@@ -33,6 +33,7 @@ setup(
             "battery_monitor = my_py_pkg.battery_monitor:main",
             "led_panel_node = my_py_pkg.led_panel_node:main",
             "PredatorTurtle = my_py_pkg.PredatorTurtle:main" ,
+            "PreyTurtle = my_py_pkg.PreyTurtle:main" ,
         ],
     },
 )
