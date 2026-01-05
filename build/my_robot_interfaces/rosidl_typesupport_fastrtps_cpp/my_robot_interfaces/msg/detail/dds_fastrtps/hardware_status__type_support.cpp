@@ -2,8 +2,10 @@
 // with input from my_robot_interfaces:msg/HardwareStatus.idl
 // generated code does not contain a copyright notice
 #include "my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp"
+#include "my_robot_interfaces/msg/detail/hardware_status__functions.h"
 #include "my_robot_interfaces/msg/detail/hardware_status__struct.hpp"
 
+#include <cstddef>
 #include <limits>
 #include <stdexcept>
 #include <string>
@@ -11,6 +13,7 @@
 #include "rosidl_typesupport_fastrtps_cpp/identifier.hpp"
 #include "rosidl_typesupport_fastrtps_cpp/message_type_support.h"
 #include "rosidl_typesupport_fastrtps_cpp/message_type_support_decl.hpp"
+#include "rosidl_typesupport_fastrtps_cpp/serialization_helpers.hpp"
 #include "rosidl_typesupport_fastrtps_cpp/wstring_conversion.hpp"
 #include "fastcdr/Cdr.h"
 
@@ -26,6 +29,7 @@ namespace msg
 namespace typesupport_fastrtps_cpp
 {
 
+
 bool
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_my_robot_interfaces
 cdr_serialize(
@@ -34,10 +38,13 @@ cdr_serialize(
 {
   // Member: temperature
   cdr << ros_message.temperature;
+
   // Member: are_motors_ready
   cdr << (ros_message.are_motors_ready ? true : false);
+
   // Member: debug_message
   cdr << ros_message.debug_message;
+
   return true;
 }
 
@@ -61,7 +68,8 @@ cdr_deserialize(
   cdr >> ros_message.debug_message;
 
   return true;
-}
+}  // NOLINT(readability/fn_size)
+
 
 size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_my_robot_interfaces
@@ -82,12 +90,14 @@ get_serialized_size(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
+
   // Member: are_motors_ready
   {
     size_t item_size = sizeof(ros_message.are_motors_ready);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
+
   // Member: debug_message
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
@@ -95,6 +105,7 @@ get_serialized_size(
 
   return current_alignment - initial_alignment;
 }
+
 
 size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_my_robot_interfaces
@@ -115,28 +126,22 @@ max_serialized_size_HardwareStatus(
   full_bounded = true;
   is_plain = true;
 
-
   // Member: temperature
   {
     size_t array_size = 1;
-
     last_member_size = array_size * sizeof(uint64_t);
     current_alignment += array_size * sizeof(uint64_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
   }
-
   // Member: are_motors_ready
   {
     size_t array_size = 1;
-
     last_member_size = array_size * sizeof(uint8_t);
     current_alignment += array_size * sizeof(uint8_t);
   }
-
   // Member: debug_message
   {
     size_t array_size = 1;
-
     full_bounded = false;
     is_plain = false;
     for (size_t index = 0; index < array_size; ++index) {
@@ -161,6 +166,122 @@ max_serialized_size_HardwareStatus(
 
   return ret_val;
 }
+
+bool
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_my_robot_interfaces
+cdr_serialize_key(
+  const my_robot_interfaces::msg::HardwareStatus & ros_message,
+  eprosima::fastcdr::Cdr & cdr)
+{
+  // Member: temperature
+  cdr << ros_message.temperature;
+
+  // Member: are_motors_ready
+  cdr << (ros_message.are_motors_ready ? true : false);
+
+  // Member: debug_message
+  cdr << ros_message.debug_message;
+
+  return true;
+}
+
+size_t
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_my_robot_interfaces
+get_serialized_size_key(
+  const my_robot_interfaces::msg::HardwareStatus & ros_message,
+  size_t current_alignment)
+{
+  size_t initial_alignment = current_alignment;
+
+  const size_t padding = 4;
+  const size_t wchar_size = 4;
+  (void)padding;
+  (void)wchar_size;
+
+  // Member: temperature
+  {
+    size_t item_size = sizeof(ros_message.temperature);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Member: are_motors_ready
+  {
+    size_t item_size = sizeof(ros_message.are_motors_ready);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Member: debug_message
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message.debug_message.size() + 1);
+
+  return current_alignment - initial_alignment;
+}
+
+size_t
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_my_robot_interfaces
+max_serialized_size_key_HardwareStatus(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment)
+{
+  size_t initial_alignment = current_alignment;
+
+  const size_t padding = 4;
+  const size_t wchar_size = 4;
+  size_t last_member_size = 0;
+  (void)last_member_size;
+  (void)padding;
+  (void)wchar_size;
+
+  full_bounded = true;
+  is_plain = true;
+
+  // Member: temperature
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+
+  // Member: are_motors_ready
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
+  }
+
+  // Member: debug_message
+  {
+    size_t array_size = 1;
+    full_bounded = false;
+    is_plain = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
+  }
+
+  size_t ret_val = current_alignment - initial_alignment;
+  if (is_plain) {
+    // All members are plain, and type is not empty.
+    // We still need to check that the in-memory alignment
+    // is the same as the CDR mandated alignment.
+    using DataType = my_robot_interfaces::msg::HardwareStatus;
+    is_plain =
+      (
+      offsetof(DataType, debug_message) +
+      last_member_size
+      ) == ret_val;
+  }
+
+  return ret_val;
+}
+
 
 static bool _HardwareStatus__cdr_serialize(
   const void * untyped_ros_message,
@@ -211,13 +332,17 @@ static message_type_support_callbacks_t _HardwareStatus__callbacks = {
   _HardwareStatus__cdr_serialize,
   _HardwareStatus__cdr_deserialize,
   _HardwareStatus__get_serialized_size,
-  _HardwareStatus__max_serialized_size
+  _HardwareStatus__max_serialized_size,
+  nullptr
 };
 
 static rosidl_message_type_support_t _HardwareStatus__handle = {
   rosidl_typesupport_fastrtps_cpp::typesupport_identifier,
   &_HardwareStatus__callbacks,
   get_message_typesupport_handle_function,
+  &my_robot_interfaces__msg__HardwareStatus__get_type_hash,
+  &my_robot_interfaces__msg__HardwareStatus__get_type_description,
+  &my_robot_interfaces__msg__HardwareStatus__get_type_description_sources,
 };
 
 }  // namespace typesupport_fastrtps_cpp

@@ -2,6 +2,9 @@
 // with input from my_robot_interfaces:msg/HardwareStatus.idl
 // generated code does not contain a copyright notice
 
+// IWYU pragma: private, include "my_robot_interfaces/msg/hardware_status.h"
+
+
 #ifndef MY_ROBOT_INTERFACES__MSG__DETAIL__HARDWARE_STATUS__FUNCTIONS_H_
 #define MY_ROBOT_INTERFACES__MSG__DETAIL__HARDWARE_STATUS__FUNCTIONS_H_
 
@@ -13,6 +16,12 @@ extern "C"
 #include <stdbool.h>
 #include <stdlib.h>
 
+#include "rosidl_runtime_c/action_type_support_struct.h"
+#include "rosidl_runtime_c/message_type_support_struct.h"
+#include "rosidl_runtime_c/service_type_support_struct.h"
+#include "rosidl_runtime_c/type_description/type_description__struct.h"
+#include "rosidl_runtime_c/type_description/type_source__struct.h"
+#include "rosidl_runtime_c/type_hash.h"
 #include "rosidl_runtime_c/visibility_control.h"
 #include "my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h"
 
@@ -53,7 +62,7 @@ my_robot_interfaces__msg__HardwareStatus__fini(my_robot_interfaces__msg__Hardwar
  */
 ROSIDL_GENERATOR_C_PUBLIC_my_robot_interfaces
 my_robot_interfaces__msg__HardwareStatus *
-my_robot_interfaces__msg__HardwareStatus__create();
+my_robot_interfaces__msg__HardwareStatus__create(void);
 
 /// Destroy msg/HardwareStatus message.
 /**
@@ -92,6 +101,30 @@ bool
 my_robot_interfaces__msg__HardwareStatus__copy(
   const my_robot_interfaces__msg__HardwareStatus * input,
   my_robot_interfaces__msg__HardwareStatus * output);
+
+/// Retrieve pointer to the hash of the description of this type.
+ROSIDL_GENERATOR_C_PUBLIC_my_robot_interfaces
+const rosidl_type_hash_t *
+my_robot_interfaces__msg__HardwareStatus__get_type_hash(
+  const rosidl_message_type_support_t * type_support);
+
+/// Retrieve pointer to the description of this type.
+ROSIDL_GENERATOR_C_PUBLIC_my_robot_interfaces
+const rosidl_runtime_c__type_description__TypeDescription *
+my_robot_interfaces__msg__HardwareStatus__get_type_description(
+  const rosidl_message_type_support_t * type_support);
+
+/// Retrieve pointer to the single raw source text that defined this type.
+ROSIDL_GENERATOR_C_PUBLIC_my_robot_interfaces
+const rosidl_runtime_c__type_description__TypeSource *
+my_robot_interfaces__msg__HardwareStatus__get_individual_type_description_source(
+  const rosidl_message_type_support_t * type_support);
+
+/// Retrieve pointer to the recursive raw sources that defined the description of this type.
+ROSIDL_GENERATOR_C_PUBLIC_my_robot_interfaces
+const rosidl_runtime_c__type_description__TypeSource__Sequence *
+my_robot_interfaces__msg__HardwareStatus__get_type_description_sources(
+  const rosidl_message_type_support_t * type_support);
 
 /// Initialize array of msg/HardwareStatus messages.
 /**

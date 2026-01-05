@@ -6,13 +6,7 @@ msg/HardwareStatus.idl
 msg/HardwareStatus.msg
 srv/ComputeRectangleArea.idl
 srv/ComputeRectangleArea.srv
-srv/ComputeRectangleArea_Request.msg
-srv/ComputeRectangleArea_Response.msg
 srv/SetLedStatus.idl
 srv/SetLedStatus.srv
-srv/SetLedStatus_Request.msg
-srv/SetLedStatus_Response.msg
 srv/SpawnTurtle.idl
 srv/SpawnTurtle.srv
-srv/SpawnTurtle_Request.msg
-srv/SpawnTurtle_Response.msg

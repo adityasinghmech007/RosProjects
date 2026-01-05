@@ -80,7 +80,7 @@ my_robot_interfaces__msg__BatteryStatus__copy(
 }
 
 my_robot_interfaces__msg__BatteryStatus *
-my_robot_interfaces__msg__BatteryStatus__create()
+my_robot_interfaces__msg__BatteryStatus__create(void)
 {
   rcutils_allocator_t allocator = rcutils_get_default_allocator();
   my_robot_interfaces__msg__BatteryStatus * msg = (my_robot_interfaces__msg__BatteryStatus *)allocator.allocate(sizeof(my_robot_interfaces__msg__BatteryStatus), allocator.state);

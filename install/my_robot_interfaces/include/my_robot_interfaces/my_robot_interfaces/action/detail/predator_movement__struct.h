@@ -2,6 +2,9 @@
 // with input from my_robot_interfaces:action/PredatorMovement.idl
 // generated code does not contain a copyright notice
 
+// IWYU pragma: private, include "my_robot_interfaces/action/predator_movement.h"
+
+
 #ifndef MY_ROBOT_INTERFACES__ACTION__DETAIL__PREDATOR_MOVEMENT__STRUCT_H_
 #define MY_ROBOT_INTERFACES__ACTION__DETAIL__PREDATOR_MOVEMENT__STRUCT_H_
 
@@ -34,7 +37,6 @@ typedef struct my_robot_interfaces__action__PredatorMovement_Goal__Sequence
   size_t capacity;
 } my_robot_interfaces__action__PredatorMovement_Goal__Sequence;
 
-
 // Constants defined in the message
 
 /// Struct defined in action/PredatorMovement in the package my_robot_interfaces.
@@ -54,7 +56,6 @@ typedef struct my_robot_interfaces__action__PredatorMovement_Result__Sequence
   size_t capacity;
 } my_robot_interfaces__action__PredatorMovement_Result__Sequence;
 
-
 // Constants defined in the message
 
 /// Struct defined in action/PredatorMovement in the package my_robot_interfaces.
@@ -73,7 +74,6 @@ typedef struct my_robot_interfaces__action__PredatorMovement_Feedback__Sequence
   /// The number of allocated items in data
   size_t capacity;
 } my_robot_interfaces__action__PredatorMovement_Feedback__Sequence;
-
 
 // Constants defined in the message
 
@@ -100,7 +100,6 @@ typedef struct my_robot_interfaces__action__PredatorMovement_SendGoal_Request__S
   size_t capacity;
 } my_robot_interfaces__action__PredatorMovement_SendGoal_Request__Sequence;
 
-
 // Constants defined in the message
 
 // Include directives for member types
@@ -124,6 +123,41 @@ typedef struct my_robot_interfaces__action__PredatorMovement_SendGoal_Response__
   size_t capacity;
 } my_robot_interfaces__action__PredatorMovement_SendGoal_Response__Sequence;
 
+// Constants defined in the message
+
+// Include directives for member types
+// Member 'info'
+#include "service_msgs/msg/detail/service_event_info__struct.h"
+
+// constants for array fields with an upper bound
+// request
+enum
+{
+  my_robot_interfaces__action__PredatorMovement_SendGoal_Event__request__MAX_SIZE = 1
+};
+// response
+enum
+{
+  my_robot_interfaces__action__PredatorMovement_SendGoal_Event__response__MAX_SIZE = 1
+};
+
+/// Struct defined in action/PredatorMovement in the package my_robot_interfaces.
+typedef struct my_robot_interfaces__action__PredatorMovement_SendGoal_Event
+{
+  service_msgs__msg__ServiceEventInfo info;
+  my_robot_interfaces__action__PredatorMovement_SendGoal_Request__Sequence request;
+  my_robot_interfaces__action__PredatorMovement_SendGoal_Response__Sequence response;
+} my_robot_interfaces__action__PredatorMovement_SendGoal_Event;
+
+// Struct for a sequence of my_robot_interfaces__action__PredatorMovement_SendGoal_Event.
+typedef struct my_robot_interfaces__action__PredatorMovement_SendGoal_Event__Sequence
+{
+  my_robot_interfaces__action__PredatorMovement_SendGoal_Event * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} my_robot_interfaces__action__PredatorMovement_SendGoal_Event__Sequence;
 
 // Constants defined in the message
 
@@ -147,7 +181,6 @@ typedef struct my_robot_interfaces__action__PredatorMovement_GetResult_Request__
   /// The number of allocated items in data
   size_t capacity;
 } my_robot_interfaces__action__PredatorMovement_GetResult_Request__Sequence;
-
 
 // Constants defined in the message
 
@@ -173,6 +206,42 @@ typedef struct my_robot_interfaces__action__PredatorMovement_GetResult_Response_
   size_t capacity;
 } my_robot_interfaces__action__PredatorMovement_GetResult_Response__Sequence;
 
+// Constants defined in the message
+
+// Include directives for member types
+// Member 'info'
+// already included above
+// #include "service_msgs/msg/detail/service_event_info__struct.h"
+
+// constants for array fields with an upper bound
+// request
+enum
+{
+  my_robot_interfaces__action__PredatorMovement_GetResult_Event__request__MAX_SIZE = 1
+};
+// response
+enum
+{
+  my_robot_interfaces__action__PredatorMovement_GetResult_Event__response__MAX_SIZE = 1
+};
+
+/// Struct defined in action/PredatorMovement in the package my_robot_interfaces.
+typedef struct my_robot_interfaces__action__PredatorMovement_GetResult_Event
+{
+  service_msgs__msg__ServiceEventInfo info;
+  my_robot_interfaces__action__PredatorMovement_GetResult_Request__Sequence request;
+  my_robot_interfaces__action__PredatorMovement_GetResult_Response__Sequence response;
+} my_robot_interfaces__action__PredatorMovement_GetResult_Event;
+
+// Struct for a sequence of my_robot_interfaces__action__PredatorMovement_GetResult_Event.
+typedef struct my_robot_interfaces__action__PredatorMovement_GetResult_Event__Sequence
+{
+  my_robot_interfaces__action__PredatorMovement_GetResult_Event * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} my_robot_interfaces__action__PredatorMovement_GetResult_Event__Sequence;
 
 // Constants defined in the message
 

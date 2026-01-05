@@ -2,6 +2,9 @@
 // with input from my_robot_interfaces:msg/BatteryStatus.idl
 // generated code does not contain a copyright notice
 
+// IWYU pragma: private, include "my_robot_interfaces/msg/battery_status.hpp"
+
+
 #ifndef MY_ROBOT_INTERFACES__MSG__DETAIL__BATTERY_STATUS__TRAITS_HPP_
 #define MY_ROBOT_INTERFACES__MSG__DETAIL__BATTERY_STATUS__TRAITS_HPP_
 

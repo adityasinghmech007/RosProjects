@@ -2,6 +2,9 @@
 // with input from my_robot_interfaces:msg/HardwareStatus.idl
 // generated code does not contain a copyright notice
 
+// IWYU pragma: private, include "my_robot_interfaces/msg/hardware_status.hpp"
+
+
 #ifndef MY_ROBOT_INTERFACES__MSG__DETAIL__HARDWARE_STATUS__STRUCT_HPP_
 #define MY_ROBOT_INTERFACES__MSG__DETAIL__HARDWARE_STATUS__STRUCT_HPP_
 

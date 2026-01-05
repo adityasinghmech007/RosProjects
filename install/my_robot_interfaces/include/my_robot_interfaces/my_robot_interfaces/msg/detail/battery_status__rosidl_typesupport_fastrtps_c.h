@@ -9,11 +9,23 @@
 #include "rosidl_runtime_c/message_type_support_struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h"
+#include "my_robot_interfaces/msg/detail/battery_status__struct.h"
+#include "fastcdr/Cdr.h"
 
 #ifdef __cplusplus
 extern "C"
 {
 #endif
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_my_robot_interfaces
+bool cdr_serialize_my_robot_interfaces__msg__BatteryStatus(
+  const my_robot_interfaces__msg__BatteryStatus * ros_message,
+  eprosima::fastcdr::Cdr & cdr);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_my_robot_interfaces
+bool cdr_deserialize_my_robot_interfaces__msg__BatteryStatus(
+  eprosima::fastcdr::Cdr &,
+  my_robot_interfaces__msg__BatteryStatus * ros_message);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_my_robot_interfaces
 size_t get_serialized_size_my_robot_interfaces__msg__BatteryStatus(
@@ -22,6 +34,22 @@ size_t get_serialized_size_my_robot_interfaces__msg__BatteryStatus(
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_my_robot_interfaces
 size_t max_serialized_size_my_robot_interfaces__msg__BatteryStatus(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_my_robot_interfaces
+bool cdr_serialize_key_my_robot_interfaces__msg__BatteryStatus(
+  const my_robot_interfaces__msg__BatteryStatus * ros_message,
+  eprosima::fastcdr::Cdr & cdr);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_my_robot_interfaces
+size_t get_serialized_size_key_my_robot_interfaces__msg__BatteryStatus(
+  const void * untyped_ros_message,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_my_robot_interfaces
+size_t max_serialized_size_key_my_robot_interfaces__msg__BatteryStatus(
   bool & full_bounded,
   bool & is_plain,
   size_t current_alignment);

@@ -88,7 +88,7 @@ my_robot_interfaces__msg__HardwareStatus__copy(
 }
 
 my_robot_interfaces__msg__HardwareStatus *
-my_robot_interfaces__msg__HardwareStatus__create()
+my_robot_interfaces__msg__HardwareStatus__create(void)
 {
   rcutils_allocator_t allocator = rcutils_get_default_allocator();
   my_robot_interfaces__msg__HardwareStatus * msg = (my_robot_interfaces__msg__HardwareStatus *)allocator.allocate(sizeof(my_robot_interfaces__msg__HardwareStatus), allocator.state);

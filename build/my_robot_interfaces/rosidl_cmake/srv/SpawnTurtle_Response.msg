@@ -1,4 +1,0 @@
-
-#Response
-bool isthepreyalive
-

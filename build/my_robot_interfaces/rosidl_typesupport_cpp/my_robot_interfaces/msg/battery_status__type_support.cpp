@@ -4,6 +4,7 @@
 
 #include "cstddef"
 #include "rosidl_runtime_c/message_type_support_struct.h"
+#include "my_robot_interfaces/msg/detail/battery_status__functions.h"
 #include "my_robot_interfaces/msg/detail/battery_status__struct.hpp"
 #include "rosidl_typesupport_cpp/identifier.hpp"
 #include "rosidl_typesupport_cpp/message_type_support.hpp"
@@ -72,6 +73,9 @@ static const rosidl_message_type_support_t BatteryStatus_message_type_support_ha
   ::rosidl_typesupport_cpp::typesupport_identifier,
   reinterpret_cast<const type_support_map_t *>(&_BatteryStatus_message_typesupport_map),
   ::rosidl_typesupport_cpp::get_message_typesupport_handle_function,
+  &my_robot_interfaces__msg__BatteryStatus__get_type_hash,
+  &my_robot_interfaces__msg__BatteryStatus__get_type_description,
+  &my_robot_interfaces__msg__BatteryStatus__get_type_description_sources,
 };
 
 }  // namespace rosidl_typesupport_cpp

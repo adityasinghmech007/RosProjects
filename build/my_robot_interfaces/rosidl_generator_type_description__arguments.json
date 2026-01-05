@@ -1,0 +1,18 @@
+{
+  "package_name": "my_robot_interfaces",
+  "output_dir": "/home/adi/RosProjects/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces",
+  "idl_tuples": [
+    "/home/adi/RosProjects/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/HardwareStatus.idl",
+    "/home/adi/RosProjects/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ComputeRectangleArea.idl",
+    "/home/adi/RosProjects/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/BatteryStatus.idl",
+    "/home/adi/RosProjects/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLedStatus.idl",
+    "/home/adi/RosProjects/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:action/PredatorMovement.idl",
+    "/home/adi/RosProjects/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SpawnTurtle.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs"
+  ]
+}

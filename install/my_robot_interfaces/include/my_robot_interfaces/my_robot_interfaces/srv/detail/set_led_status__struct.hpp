@@ -2,6 +2,9 @@
 // with input from my_robot_interfaces:srv/SetLedStatus.idl
 // generated code does not contain a copyright notice
 
+// IWYU pragma: private, include "my_robot_interfaces/srv/set_led_status.hpp"
+
+
 #ifndef MY_ROBOT_INTERFACES__SRV__DETAIL__SET_LED_STATUS__STRUCT_HPP_
 #define MY_ROBOT_INTERFACES__SRV__DETAIL__SET_LED_STATUS__STRUCT_HPP_
 
@@ -256,6 +259,141 @@ using SetLedStatus_Response =
 
 }  // namespace my_robot_interfaces
 
+
+// Include directives for member types
+// Member 'info'
+#include "service_msgs/msg/detail/service_event_info__struct.hpp"
+
+#ifndef _WIN32
+# define DEPRECATED__my_robot_interfaces__srv__SetLedStatus_Event __attribute__((deprecated))
+#else
+# define DEPRECATED__my_robot_interfaces__srv__SetLedStatus_Event __declspec(deprecated)
+#endif
+
+namespace my_robot_interfaces
+{
+
+namespace srv
+{
+
+// message struct
+template<class ContainerAllocator>
+struct SetLedStatus_Event_
+{
+  using Type = SetLedStatus_Event_<ContainerAllocator>;
+
+  explicit SetLedStatus_Event_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+  : info(_init)
+  {
+    (void)_init;
+  }
+
+  explicit SetLedStatus_Event_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+  : info(_alloc, _init)
+  {
+    (void)_init;
+  }
+
+  // field types and members
+  using _info_type =
+    service_msgs::msg::ServiceEventInfo_<ContainerAllocator>;
+  _info_type info;
+  using _request_type =
+    rosidl_runtime_cpp::BoundedVector<my_robot_interfaces::srv::SetLedStatus_Request_<ContainerAllocator>, 1, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<my_robot_interfaces::srv::SetLedStatus_Request_<ContainerAllocator>>>;
+  _request_type request;
+  using _response_type =
+    rosidl_runtime_cpp::BoundedVector<my_robot_interfaces::srv::SetLedStatus_Response_<ContainerAllocator>, 1, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<my_robot_interfaces::srv::SetLedStatus_Response_<ContainerAllocator>>>;
+  _response_type response;
+
+  // setters for named parameter idiom
+  Type & set__info(
+    const service_msgs::msg::ServiceEventInfo_<ContainerAllocator> & _arg)
+  {
+    this->info = _arg;
+    return *this;
+  }
+  Type & set__request(
+    const rosidl_runtime_cpp::BoundedVector<my_robot_interfaces::srv::SetLedStatus_Request_<ContainerAllocator>, 1, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<my_robot_interfaces::srv::SetLedStatus_Request_<ContainerAllocator>>> & _arg)
+  {
+    this->request = _arg;
+    return *this;
+  }
+  Type & set__response(
+    const rosidl_runtime_cpp::BoundedVector<my_robot_interfaces::srv::SetLedStatus_Response_<ContainerAllocator>, 1, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<my_robot_interfaces::srv::SetLedStatus_Response_<ContainerAllocator>>> & _arg)
+  {
+    this->response = _arg;
+    return *this;
+  }
+
+  // constant declarations
+
+  // pointer types
+  using RawPtr =
+    my_robot_interfaces::srv::SetLedStatus_Event_<ContainerAllocator> *;
+  using ConstRawPtr =
+    const my_robot_interfaces::srv::SetLedStatus_Event_<ContainerAllocator> *;
+  using SharedPtr =
+    std::shared_ptr<my_robot_interfaces::srv::SetLedStatus_Event_<ContainerAllocator>>;
+  using ConstSharedPtr =
+    std::shared_ptr<my_robot_interfaces::srv::SetLedStatus_Event_<ContainerAllocator> const>;
+
+  template<typename Deleter = std::default_delete<
+      my_robot_interfaces::srv::SetLedStatus_Event_<ContainerAllocator>>>
+  using UniquePtrWithDeleter =
+    std::unique_ptr<my_robot_interfaces::srv::SetLedStatus_Event_<ContainerAllocator>, Deleter>;
+
+  using UniquePtr = UniquePtrWithDeleter<>;
+
+  template<typename Deleter = std::default_delete<
+      my_robot_interfaces::srv::SetLedStatus_Event_<ContainerAllocator>>>
+  using ConstUniquePtrWithDeleter =
+    std::unique_ptr<my_robot_interfaces::srv::SetLedStatus_Event_<ContainerAllocator> const, Deleter>;
+  using ConstUniquePtr = ConstUniquePtrWithDeleter<>;
+
+  using WeakPtr =
+    std::weak_ptr<my_robot_interfaces::srv::SetLedStatus_Event_<ContainerAllocator>>;
+  using ConstWeakPtr =
+    std::weak_ptr<my_robot_interfaces::srv::SetLedStatus_Event_<ContainerAllocator> const>;
+
+  // pointer types similar to ROS 1, use SharedPtr / ConstSharedPtr instead
+  // NOTE: Can't use 'using' here because GNU C++ can't parse attributes properly
+  typedef DEPRECATED__my_robot_interfaces__srv__SetLedStatus_Event
+    std::shared_ptr<my_robot_interfaces::srv::SetLedStatus_Event_<ContainerAllocator>>
+    Ptr;
+  typedef DEPRECATED__my_robot_interfaces__srv__SetLedStatus_Event
+    std::shared_ptr<my_robot_interfaces::srv::SetLedStatus_Event_<ContainerAllocator> const>
+    ConstPtr;
+
+  // comparison operators
+  bool operator==(const SetLedStatus_Event_ & other) const
+  {
+    if (this->info != other.info) {
+      return false;
+    }
+    if (this->request != other.request) {
+      return false;
+    }
+    if (this->response != other.response) {
+      return false;
+    }
+    return true;
+  }
+  bool operator!=(const SetLedStatus_Event_ & other) const
+  {
+    return !this->operator==(other);
+  }
+};  // struct SetLedStatus_Event_
+
+// alias to use template instance with default allocator
+using SetLedStatus_Event =
+  my_robot_interfaces::srv::SetLedStatus_Event_<std::allocator<void>>;
+
+// constant definitions
+
+}  // namespace srv
+
+}  // namespace my_robot_interfaces
+
 namespace my_robot_interfaces
 {
 
@@ -266,6 +404,7 @@ struct SetLedStatus
 {
   using Request = my_robot_interfaces::srv::SetLedStatus_Request;
   using Response = my_robot_interfaces::srv::SetLedStatus_Response;
+  using Event = my_robot_interfaces::srv::SetLedStatus_Event;
 };
 
 }  // namespace srv

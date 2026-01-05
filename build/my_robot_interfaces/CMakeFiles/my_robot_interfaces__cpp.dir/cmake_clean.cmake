@@ -15,6 +15,7 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/my_robot_interfaces/msg/detail/hardware_status__traits.hpp"
   "rosidl_generator_cpp/my_robot_interfaces/msg/detail/hardware_status__type_support.hpp"
   "rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
+  "rosidl_generator_cpp/my_robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp"
   "rosidl_generator_cpp/my_robot_interfaces/srv/compute_rectangle_area.hpp"
   "rosidl_generator_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__builder.hpp"
   "rosidl_generator_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.hpp"

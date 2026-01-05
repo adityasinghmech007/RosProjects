@@ -1,0 +1,48 @@
+[0.010s] Invoking command in '/home/adi/RosProjects/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adi/RosProjects/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/adi/RosProjects/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/adi/RosProjects/install/my_robot_description
+[0.777s] -- The C compiler identification is GNU 13.3.0
+[1.296s] -- The CXX compiler identification is GNU 13.3.0
+[1.317s] -- Detecting C compiler ABI info
+[1.428s] -- Detecting C compiler ABI info - done
+[1.438s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.439s] -- Detecting C compile features
+[1.439s] -- Detecting C compile features - done
+[1.452s] -- Detecting CXX compiler ABI info
+[1.566s] -- Detecting CXX compiler ABI info - done
+[1.574s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.575s] -- Detecting CXX compile features
+[1.575s] -- Detecting CXX compile features - done
+[1.604s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.760s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.942s] -- Configuring done (1.9s)
+[1.947s] -- Generating done (0.0s)
+[1.948s] -- Build files have been written to: /home/adi/RosProjects/build/my_robot_description
+[1.952s] Invoked command in '/home/adi/RosProjects/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adi/RosProjects/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/adi/RosProjects/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/adi/RosProjects/install/my_robot_description
+[1.953s] Invoking command in '/home/adi/RosProjects/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adi/RosProjects/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adi/RosProjects/build/my_robot_description -- -j4 -l4
+[1.990s] Invoked command in '/home/adi/RosProjects/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adi/RosProjects/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adi/RosProjects/build/my_robot_description -- -j4 -l4
+[2.000s] Invoking command in '/home/adi/RosProjects/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adi/RosProjects/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/adi/RosProjects/build/my_robot_description
+[2.008s] -- Install configuration: ""
+[2.010s] -- Installing: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description//urdf
+[2.011s] -- Installing: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description//urdf/my_robot.urdf.xacro
+[2.011s] -- Installing: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description//urdf/common_properties.xacro
+[2.011s] -- Installing: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description//urdf/mobile_base.xacro
+[2.011s] -- Installing: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description//launch
+[2.011s] -- Installing: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description//launch/display.launch.xml
+[2.011s] -- Installing: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description//launch/display.launch.py
+[2.012s] -- Installing: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description//rviz
+[2.012s] -- Installing: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description//rviz/urdf_config.rviz
+[2.013s] -- Installing: /home/adi/RosProjects/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+[2.013s] -- Installing: /home/adi/RosProjects/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+[2.013s] -- Installing: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+[2.013s] -- Installing: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+[2.013s] -- Installing: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description/environment/path.sh
+[2.014s] -- Installing: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description/environment/path.dsv
+[2.014s] -- Installing: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description/local_setup.bash
+[2.014s] -- Installing: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description/local_setup.sh
+[2.014s] -- Installing: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description/local_setup.zsh
+[2.014s] -- Installing: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description/local_setup.dsv
+[2.015s] -- Installing: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description/package.dsv
+[2.015s] -- Installing: /home/adi/RosProjects/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+[2.015s] -- Installing: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+[2.015s] -- Installing: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+[2.015s] -- Installing: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description/package.xml
+[2.017s] Invoked command in '/home/adi/RosProjects/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adi/RosProjects/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/adi/RosProjects/build/my_robot_description

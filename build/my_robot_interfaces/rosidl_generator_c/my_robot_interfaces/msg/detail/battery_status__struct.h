@@ -2,6 +2,9 @@
 // with input from my_robot_interfaces:msg/BatteryStatus.idl
 // generated code does not contain a copyright notice
 
+// IWYU pragma: private, include "my_robot_interfaces/msg/battery_status.h"
+
+
 #ifndef MY_ROBOT_INTERFACES__MSG__DETAIL__BATTERY_STATUS__STRUCT_H_
 #define MY_ROBOT_INTERFACES__MSG__DETAIL__BATTERY_STATUS__STRUCT_H_
 
@@ -13,7 +16,6 @@ extern "C"
 #include <stdbool.h>
 #include <stddef.h>
 #include <stdint.h>
-
 
 // Constants defined in the message
 

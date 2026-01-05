@@ -9,6 +9,7 @@
 #include "rosidl_runtime_c/message_type_support_struct.h"
 #include "rosidl_typesupport_cpp/message_type_support.hpp"
 #include "rosidl_typesupport_interface/macros.h"
+#include "my_robot_interfaces/msg/detail/battery_status__functions.h"
 #include "my_robot_interfaces/msg/detail/battery_status__struct.hpp"
 #include "rosidl_typesupport_introspection_cpp/field_types.hpp"
 #include "rosidl_typesupport_introspection_cpp/identifier.hpp"
@@ -43,6 +44,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember BatteryStatus
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
+    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -60,6 +62,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember BatteryStatus
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_STRING,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
+    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -79,6 +82,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMembers BatteryStatu
   "BatteryStatus",  // message name
   2,  // number of fields
   sizeof(my_robot_interfaces::msg::BatteryStatus),
+  false,  // has_any_key_member_
   BatteryStatus_message_member_array,  // message members
   BatteryStatus_init_function,  // function to initialize message memory (memory has to be allocated)
   BatteryStatus_fini_function  // function to terminate message instance (will not free memory)
@@ -88,6 +92,9 @@ static const rosidl_message_type_support_t BatteryStatus_message_type_support_ha
   ::rosidl_typesupport_introspection_cpp::typesupport_identifier,
   &BatteryStatus_message_members,
   get_message_typesupport_handle_function,
+  &my_robot_interfaces__msg__BatteryStatus__get_type_hash,
+  &my_robot_interfaces__msg__BatteryStatus__get_type_description,
+  &my_robot_interfaces__msg__BatteryStatus__get_type_description_sources,
 };
 
 }  // namespace rosidl_typesupport_introspection_cpp
