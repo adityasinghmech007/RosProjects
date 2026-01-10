@@ -2,10 +2,12 @@
 /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/launch/number_app.launch.xml
 /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/launch/number_app.launch.py
 /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/launch/robot_news_station.launch.xml
+/home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/launch/my_robot_gazebo.launch.xml
 /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/config/bb8.yaml
 /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/config/all_stations.yaml
 /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/config/giskard.yaml
 /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/config/number_app.yaml
+/home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/config/gazebo_bridge.yaml
 /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/config/lander.yaml
 /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/config/cp30.yaml
 /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/config/daneel.yaml
