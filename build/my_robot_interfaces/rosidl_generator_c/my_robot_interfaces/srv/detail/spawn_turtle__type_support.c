@@ -5,8 +5,8 @@
 #include <string.h>
 
 #include "my_robot_interfaces/srv/detail/spawn_turtle__struct.h"
-#include "my_robot_interfaces/srv/detail/spawn_turtle__type_support.h"
 #include "my_robot_interfaces/srv/detail/spawn_turtle__functions.h"
+#include "my_robot_interfaces/srv/detail/spawn_turtle__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus

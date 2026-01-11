@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "my_robot_interfaces/msg/detail/battery_status__functions.h"
 #include "my_robot_interfaces/msg/detail/battery_status__struct.h"
 #include "my_robot_interfaces/msg/detail/battery_status__type_support.h"
+#include "my_robot_interfaces/msg/detail/battery_status__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
