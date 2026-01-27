@@ -1,0 +1,30 @@
+[1.231s] Invoking command in '/home/adi/RosProjects/build/my_py_pkg': CMAKE_PREFIX_PATH=/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/RosProjects/install/my_robot_bringup:/home/adi/RosProjects/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/adi/RosProjects/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adi/RosProjects/install/my_py_pkg/lib/python3.12/site-packages:/home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages:/home/adi/RosProjects/build/my_py_pkg:/home/adi/RosProjects/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/adi/RosProjects/build/my_py_pkg/build --no-deps symlink_data
+[1.671s] running develop
+[1.932s] running egg_info
+[1.961s] writing my_py_pkg.egg-info/PKG-INFO
+[1.963s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[1.963s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[1.964s] writing requirements to my_py_pkg.egg-info/requires.txt
+[1.964s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[2.013s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[2.014s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[2.041s] running build_ext
+[2.041s] Creating /home/adi/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)
+[2.042s] Installing PredatorTurtle script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[2.042s] Installing PreyTurtle script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[2.046s] Installing add_two_ints_client script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[2.047s] Installing add_two_ints_client_no_oop script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[2.047s] Installing add_two_ints_server script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[2.047s] Installing battery_charge_status script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[2.047s] Installing battery_monitor script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[2.047s] Installing hardware_status_publisher script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[2.047s] Installing led_panel_node script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[2.048s] Installing number_counter script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[2.048s] Installing number_publisher script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[2.048s] Installing py_node script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[2.048s] Installing robot_news_station script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[2.048s] Installing smartphone script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[2.048s] 
+[2.048s] Installed /home/adi/RosProjects/build/my_py_pkg
+[2.048s] running symlink_data
+[2.109s] Invoked command in '/home/adi/RosProjects/build/my_py_pkg' returned '0': CMAKE_PREFIX_PATH=/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/RosProjects/install/my_robot_bringup:/home/adi/RosProjects/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/adi/RosProjects/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adi/RosProjects/install/my_py_pkg/lib/python3.12/site-packages:/home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages:/home/adi/RosProjects/build/my_py_pkg:/home/adi/RosProjects/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/adi/RosProjects/build/my_py_pkg/build --no-deps symlink_data

@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "my_robot_interfaces/action/detail/predator_movement__struct.h"
-#include "my_robot_interfaces/action/detail/predator_movement__functions.h"
 #include "my_robot_interfaces/action/detail/predator_movement__type_support.h"
+#include "my_robot_interfaces/action/detail/predator_movement__functions.h"
+#include "my_robot_interfaces/action/detail/predator_movement__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus

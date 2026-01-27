@@ -1,4 +1,1 @@
-float64 length
-float64 width
----
-float64 area
+/home/adi/RosProjects/src/my_robot_interfaces/srv/ComputeRectangleArea.srv

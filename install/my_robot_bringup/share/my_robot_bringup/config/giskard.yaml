@@ -1,3 +1,1 @@
-/robot_news_station_giskard:
-  ros__parameters:
-    robot_name : "giskard"
+/home/adi/RosProjects/src/my_robot_bringup/config/giskard.yaml

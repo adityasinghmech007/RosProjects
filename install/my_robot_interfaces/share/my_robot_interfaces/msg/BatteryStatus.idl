@@ -1,14 +1,1 @@
-// generated from rosidl_adapter/resource/msg.idl.em
-// with input from my_robot_interfaces/msg/BatteryStatus.msg
-// generated code does not contain a copyright notice
-
-
-module my_robot_interfaces {
-  module msg {
-    struct BatteryStatus {
-      double batterylevel;
-
-      string status_message;
-    };
-  };
-};
+/home/adi/RosProjects/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/BatteryStatus.idl

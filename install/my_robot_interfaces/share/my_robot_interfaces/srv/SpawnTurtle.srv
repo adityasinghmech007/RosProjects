@@ -1,7 +1,1 @@
-#Request
-
-bool spawnaprey
----
-#Response
-bool isthepreyalive
-
+/home/adi/RosProjects/src/my_robot_interfaces/srv/SpawnTurtle.srv

@@ -1,3 +1,1 @@
-/robot_news_station_lander:
-  ros__parameters:
-    robot_name : "lander"
+/home/adi/RosProjects/src/my_robot_bringup/config/lander.yaml

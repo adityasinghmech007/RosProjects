@@ -1,3 +1,1 @@
-/robot_news_station_bb8:
-  ros__parameters:
-    robot_name : "bb8"
+/home/adi/RosProjects/src/my_robot_bringup/config/bb8.yaml

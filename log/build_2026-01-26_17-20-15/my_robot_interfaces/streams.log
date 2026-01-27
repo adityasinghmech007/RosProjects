@@ -1,0 +1,215 @@
+[0.035s] Invoking command in '/home/adi/RosProjects/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adi/RosProjects/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adi/RosProjects/build/my_robot_interfaces -- -j4 -l4
+[0.150s] [  1%] Built target my_robot_interfaces__rosidl_generator_type_description
+[0.201s] [  1%] Built target ament_cmake_python_symlink_my_robot_interfaces
+[0.250s] [ 25%] Built target my_robot_interfaces__rosidl_generator_c
+[0.566s] running egg_info
+[0.591s] writing my_robot_interfaces.egg-info/PKG-INFO
+[0.591s] writing dependency_links to my_robot_interfaces.egg-info/dependency_links.txt
+[0.592s] writing top-level names to my_robot_interfaces.egg-info/top_level.txt
+[0.672s] reading manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[0.673s] writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[0.719s] [ 25%] Built target ament_cmake_python_build_my_robot_interfaces_egg
+[0.754s] [ 34%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c
+[0.799s] [ 44%] Built target my_robot_interfaces__rosidl_typesupport_c
+[0.863s] [ 53%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c
+[0.911s] [ 54%] Built target my_robot_interfaces__cpp
+[0.974s] [ 64%] Built target my_robot_interfaces__rosidl_typesupport_cpp
+[1.025s] [ 73%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp
+[1.070s] [ 83%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.106s] [ 83%] Built target my_robot_interfaces
+[1.135s] [ 84%] Built target my_robot_interfaces__py
+[1.173s] [ 92%] Built target my_robot_interfaces__rosidl_generator_py
+[1.196s] [ 95%] Built target my_robot_interfaces_s__rosidl_typesupport_fastrtps_c
+[1.251s] [ 97%] Built target my_robot_interfaces_s__rosidl_typesupport_c
+[1.294s] [100%] Built target my_robot_interfaces_s__rosidl_typesupport_introspection_c
+[1.345s] Invoked command in '/home/adi/RosProjects/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adi/RosProjects/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adi/RosProjects/build/my_robot_interfaces -- -j4 -l4
+[1.346s] Invoking command in '/home/adi/RosProjects/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adi/RosProjects/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/adi/RosProjects/build/my_robot_interfaces
+[1.361s] -- Install configuration: ""
+[1.361s] -- Execute custom install script
+[1.362s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces
+[1.363s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.json
+[1.363s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.json
+[1.363s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/msg/BatteryStatus.json
+[1.363s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLedStatus.json
+[1.363s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/action/PredatorMovement.json
+[1.363s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/srv/SpawnTurtle.json
+[1.370s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/predator_movement__functions.h
+[1.370s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/predator_movement__struct.h
+[1.370s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/predator_movement__type_support.h
+[1.370s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/predator_movement.h
+[1.370s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/battery_status.h
+[1.371s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/battery_status__functions.h
+[1.371s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/battery_status__struct.h
+[1.375s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/battery_status__type_support.h
+[1.376s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__functions.h
+[1.376s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__struct.h
+[1.376s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.h
+[1.376s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardware_status.h
+[1.376s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.376s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/compute_rectangle_area.h
+[1.377s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h
+[1.377s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h
+[1.377s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h
+[1.377s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led_status__functions.h
+[1.377s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led_status__struct.h
+[1.377s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led_status__type_support.h
+[1.378s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/spawn_turtle__functions.h
+[1.378s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/spawn_turtle__struct.h
+[1.378s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/spawn_turtle__type_support.h
+[1.382s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/set_led_status.h
+[1.383s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/spawn_turtle.h
+[1.383s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh
+[1.383s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv
+[1.383s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/predator_movement__rosidl_typesupport_fastrtps_c.h
+[1.383s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/battery_status__rosidl_typesupport_fastrtps_c.h
+[1.383s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h
+[1.383s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.387s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_c.h
+[1.387s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led_status__rosidl_typesupport_fastrtps_c.h
+[1.387s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/spawn_turtle__rosidl_typesupport_fastrtps_c.h
+[1.387s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/predator_movement__rosidl_typesupport_introspection_c.h
+[1.400s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
+[1.401s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h
+[1.401s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.401s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_c.h
+[1.401s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led_status__rosidl_typesupport_introspection_c.h
+[1.401s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/spawn_turtle__rosidl_typesupport_introspection_c.h
+[1.401s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/predator_movement__builder.hpp
+[1.402s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/predator_movement__struct.hpp
+[1.402s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/predator_movement__traits.hpp
+[1.402s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/predator_movement__type_support.hpp
+[1.402s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/predator_movement.hpp
+[1.402s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/battery_status.hpp
+[1.407s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/battery_status__builder.hpp
+[1.407s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/battery_status__struct.hpp
+[1.407s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/battery_status__traits.hpp
+[1.407s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/battery_status__type_support.hpp
+[1.407s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__builder.hpp
+[1.408s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__struct.hpp
+[1.408s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__traits.hpp
+[1.408s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.hpp
+[1.408s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardware_status.hpp
+[1.408s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.415s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/compute_rectangle_area.hpp
+[1.415s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__builder.hpp
+[1.415s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.hpp
+[1.419s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__traits.hpp
+[1.419s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.hpp
+[1.419s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led_status__builder.hpp
+[1.419s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led_status__struct.hpp
+[1.419s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led_status__traits.hpp
+[1.419s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led_status__type_support.hpp
+[1.420s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/spawn_turtle__builder.hpp
+[1.420s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/spawn_turtle__struct.hpp
+[1.420s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/spawn_turtle__traits.hpp
+[1.420s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/spawn_turtle__type_support.hpp
+[1.420s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/set_led_status.hpp
+[1.420s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/spawn_turtle.hpp
+[1.420s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/predator_movement__rosidl_typesupport_fastrtps_cpp.hpp
+[1.420s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/battery_status__rosidl_typesupport_fastrtps_cpp.hpp
+[1.420s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp
+[1.420s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.421s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_cpp.hpp
+[1.421s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led_status__rosidl_typesupport_fastrtps_cpp.hpp
+[1.421s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/spawn_turtle__rosidl_typesupport_fastrtps_cpp.hpp
+[1.421s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/predator_movement__rosidl_typesupport_introspection_cpp.hpp
+[1.421s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/battery_status__rosidl_typesupport_introspection_cpp.hpp
+[1.421s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp
+[1.421s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_cpp.hpp
+[1.421s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led_status__rosidl_typesupport_introspection_cpp.hpp
+[1.421s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/spawn_turtle__rosidl_typesupport_introspection_cpp.hpp
+[1.421s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh
+[1.421s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv
+[1.421s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[1.421s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.421s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.421s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[1.422s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/__init__.py
+[1.422s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c
+[1.422s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.422s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.422s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/action/__init__.py
+[1.422s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/action/_predator_movement.py
+[1.422s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/action/_predator_movement_s.c
+[1.422s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/__init__.py
+[1.422s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_battery_status.py
+[1.422s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_battery_status_s.c
+[1.422s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_hardware_status.py
+[1.422s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_hardware_status_s.c
+[1.422s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so
+[1.423s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[1.424s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so
+[1.424s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/__init__.py
+[1.424s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_compute_rectangle_area.py
+[1.424s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_compute_rectangle_area_s.c
+[1.424s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_set_led_status.py
+[1.424s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_set_led_status_s.c
+[1.424s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_spawn_turtle.py
+[1.424s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_spawn_turtle_s.c
+[1.424s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[1.424s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so
+[1.425s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so
+[1.425s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.idl
+[1.425s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.idl
+[1.425s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/msg/BatteryStatus.idl
+[1.425s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLedStatus.idl
+[1.425s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/action/PredatorMovement.idl
+[1.425s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/srv/SpawnTurtle.idl
+[1.425s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.msg
+[1.425s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.srv
+[1.425s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/msg/BatteryStatus.msg
+[1.425s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLedStatus.srv
+[1.425s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/action/PredatorMovement.action
+[1.425s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/srv/SpawnTurtle.srv
+[1.425s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces
+[1.426s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces
+[1.426s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh
+[1.426s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv
+[1.426s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh
+[1.426s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv
+[1.426s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash
+[1.426s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh
+[1.426s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh
+[1.426s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv
+[1.426s] -- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv
+[1.447s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces
+[1.448s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.448s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.449s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.449s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.449s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.450s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.450s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.450s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake
+[1.450s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake
+[1.451s] -- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/package.xml
+[1.451s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so
+[1.451s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.452s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so
+[1.452s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so
+[1.452s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.452s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.453s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so
+[1.499s] Listing '/home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces'...
+[1.499s] Listing '/home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/action'...
+[1.499s] Listing '/home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg'...
+[1.499s] Listing '/home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv'...
+[1.505s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so
+[1.505s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport.cmake
+[1.506s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.506s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.507s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.508s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.508s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.508s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake
+[1.508s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.508s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cppExport.cmake
+[1.508s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.508s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.508s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.508s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.508s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake
+[1.509s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.509s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport.cmake
+[1.510s] -- Up-to-date: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.513s] Invoked command in '/home/adi/RosProjects/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adi/RosProjects/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/adi/RosProjects/build/my_robot_interfaces

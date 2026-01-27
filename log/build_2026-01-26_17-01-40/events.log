@@ -1,0 +1,1031 @@
+[0.000000] (-) TimerEvent: {}
+[0.000326] (my_robot_description) JobQueued: {'identifier': 'my_robot_description', 'dependencies': OrderedDict()}
+[0.000374] (my_robot_interfaces) JobQueued: {'identifier': 'my_robot_interfaces', 'dependencies': OrderedDict()}
+[0.000393] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict({'my_robot_interfaces': '/home/adi/RosProjects/install/my_robot_interfaces'})}
+[0.000414] (my_robot_bringup) JobQueued: {'identifier': 'my_robot_bringup', 'dependencies': OrderedDict({'my_robot_interfaces': '/home/adi/RosProjects/install/my_robot_interfaces', 'my_py_pkg': '/home/adi/RosProjects/install/my_py_pkg'})}
+[0.000431] (my_robot_interfaces) JobStarted: {'identifier': 'my_robot_interfaces'}
+[0.002858] (my_robot_description) JobStarted: {'identifier': 'my_robot_description'}
+[0.010947] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'cmake'}
+[0.011003] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/adi/RosProjects/src/my_robot_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/adi/RosProjects/install/my_robot_interfaces'], 'cwd': '/home/adi/RosProjects/build/my_robot_interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2330-62-adi-VMware-Virtual-Platform_TIME236464197', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'adi', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/home/adi/RosProjects/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/adi', 'OLDPWD': '/home/adi', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GZ_SIM_RENDER_ENGINE': 'ogre', 'MANAGERPID': '2079', 'SYSTEMD_EXEC_PID': '2330', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '197921', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/adi/RosProjects/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'adi', 'JOURNAL_STREAM': '9:28876', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'adi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/adi-VMware-Virtual-Platform:@/tmp/.ICE-unix/2290,unix/adi-VMware-Virtual-Platform:/tmp/.ICE-unix/2290', 'INVOCATION_ID': '6b945cf22bc74cfeb0edfd440b55145a', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CQ09H3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/adi/RosProjects/install/my_robot_bringup:/home/adi/RosProjects/install/my_py_pkg:/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/RosProjects/install/my_robot_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:5fb6a099-341a-4306-b7ca-7e84c1d398e5', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/adi/RosProjects/build/my_robot_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/adi/RosProjects/install/my_py_pkg/lib/python3.12/site-packages:/home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/adi/RosProjects/install/my_robot_bringup:/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/RosProjects/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/adi/RosProjects/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[0.020551] (my_robot_description) JobProgress: {'identifier': 'my_robot_description', 'progress': 'cmake'}
+[0.025591] (my_robot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/adi/RosProjects/src/my_robot_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/adi/RosProjects/install/my_robot_description'], 'cwd': '/home/adi/RosProjects/build/my_robot_description', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2330-62-adi-VMware-Virtual-Platform_TIME236464197', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'adi', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/home/adi/RosProjects/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/adi', 'OLDPWD': '/home/adi', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GZ_SIM_RENDER_ENGINE': 'ogre', 'MANAGERPID': '2079', 'SYSTEMD_EXEC_PID': '2330', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '197921', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/adi/RosProjects/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'adi', 'JOURNAL_STREAM': '9:28876', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'adi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/adi-VMware-Virtual-Platform:@/tmp/.ICE-unix/2290,unix/adi-VMware-Virtual-Platform:/tmp/.ICE-unix/2290', 'INVOCATION_ID': '6b945cf22bc74cfeb0edfd440b55145a', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CQ09H3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/adi/RosProjects/install/my_robot_bringup:/home/adi/RosProjects/install/my_py_pkg:/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/RosProjects/install/my_robot_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:5fb6a099-341a-4306-b7ca-7e84c1d398e5', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/adi/RosProjects/build/my_robot_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/adi/RosProjects/install/my_py_pkg/lib/python3.12/site-packages:/home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/adi/RosProjects/install/my_robot_bringup:/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/RosProjects/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/adi/RosProjects/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[0.095209] (-) TimerEvent: {}
+[0.175688] (my_robot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.181054] (my_robot_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.195974] (-) TimerEvent: {}
+[0.293153] (my_robot_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.297263] (-) TimerEvent: {}
+[0.301270] (my_robot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.335133] (my_robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.336668] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.398612] (-) TimerEvent: {}
+[0.492016] (my_robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.503953] (-) TimerEvent: {}
+[0.520317] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.527859] (my_robot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.528533] (my_robot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.530013] (my_robot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.542044] (my_robot_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.542714] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.548676] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.557603] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.558853] (my_robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.604164] (-) TimerEvent: {}
+[0.706226] (-) TimerEvent: {}
+[0.739055] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.760241] (my_robot_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.760456] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.760547] (my_robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.777550] (my_robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.806730] (-) TimerEvent: {}
+[0.812494] (my_robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.837055] (my_robot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.837254] (my_robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.837642] (my_robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.845745] (my_robot_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.907154] (-) TimerEvent: {}
+[1.014979] (-) TimerEvent: {}
+[1.070612] (my_robot_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.115405] (-) TimerEvent: {}
+[1.121078] (my_robot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.211031] (my_robot_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.217120] (my_robot_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.217303] (-) TimerEvent: {}
+[1.281603] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.292826] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.318069] (-) TimerEvent: {}
+[1.385370] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.418382] (-) TimerEvent: {}
+[1.457037] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.470181] (my_robot_description) StdoutLine: {'line': b'-- Configuring done (1.4s)\n'}
+[1.490560] (my_robot_description) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.495962] (my_robot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/adi/RosProjects/build/my_robot_description\n'}
+[1.512922] (my_robot_description) CommandEnded: {'returncode': 0}
+[1.513461] (my_robot_description) JobProgress: {'identifier': 'my_robot_description', 'progress': 'build'}
+[1.513506] (my_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/adi/RosProjects/build/my_robot_description', '--', '-j4', '-l4'], 'cwd': '/home/adi/RosProjects/build/my_robot_description', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2330-62-adi-VMware-Virtual-Platform_TIME236464197', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'adi', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/home/adi/RosProjects/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/adi', 'OLDPWD': '/home/adi', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GZ_SIM_RENDER_ENGINE': 'ogre', 'MANAGERPID': '2079', 'SYSTEMD_EXEC_PID': '2330', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '197921', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/adi/RosProjects/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'adi', 'JOURNAL_STREAM': '9:28876', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'adi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/adi-VMware-Virtual-Platform:@/tmp/.ICE-unix/2290,unix/adi-VMware-Virtual-Platform:/tmp/.ICE-unix/2290', 'INVOCATION_ID': '6b945cf22bc74cfeb0edfd440b55145a', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CQ09H3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/adi/RosProjects/install/my_robot_bringup:/home/adi/RosProjects/install/my_py_pkg:/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/RosProjects/install/my_robot_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:5fb6a099-341a-4306-b7ca-7e84c1d398e5', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/adi/RosProjects/build/my_robot_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/adi/RosProjects/install/my_py_pkg/lib/python3.12/site-packages:/home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/adi/RosProjects/install/my_robot_bringup:/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/RosProjects/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/adi/RosProjects/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[1.522795] (-) TimerEvent: {}
+[1.595573] (my_robot_description) CommandEnded: {'returncode': 0}
+[1.596569] (my_robot_description) JobProgress: {'identifier': 'my_robot_description', 'progress': 'install'}
+[1.618523] (my_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/adi/RosProjects/build/my_robot_description'], 'cwd': '/home/adi/RosProjects/build/my_robot_description', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2330-62-adi-VMware-Virtual-Platform_TIME236464197', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'adi', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/home/adi/RosProjects/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/adi', 'OLDPWD': '/home/adi', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GZ_SIM_RENDER_ENGINE': 'ogre', 'MANAGERPID': '2079', 'SYSTEMD_EXEC_PID': '2330', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '197921', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/adi/RosProjects/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'adi', 'JOURNAL_STREAM': '9:28876', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'adi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/adi-VMware-Virtual-Platform:@/tmp/.ICE-unix/2290,unix/adi-VMware-Virtual-Platform:/tmp/.ICE-unix/2290', 'INVOCATION_ID': '6b945cf22bc74cfeb0edfd440b55145a', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CQ09H3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/adi/RosProjects/install/my_robot_bringup:/home/adi/RosProjects/install/my_py_pkg:/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/RosProjects/install/my_robot_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:5fb6a099-341a-4306-b7ca-7e84c1d398e5', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/adi/RosProjects/build/my_robot_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/adi/RosProjects/install/my_py_pkg/lib/python3.12/site-packages:/home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/adi/RosProjects/install/my_robot_bringup:/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/RosProjects/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/adi/RosProjects/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[1.623489] (-) TimerEvent: {}
+[1.630352] (my_robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.631013] (my_robot_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.631118] (my_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description//urdf/arm.xacro\n'}
+[1.660049] (my_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description//urdf/camera.xacro\n'}
+[1.685997] (my_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description//urdf/common_properties.xacro\n'}
+[1.706001] (my_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description//urdf/mobile_base.xacro\n'}
+[1.725391] (-) TimerEvent: {}
+[1.746677] (my_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description//urdf/mobile_base_gazebo.xacro\n'}
+[1.767939] (my_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description//urdf/my_robot.urdf.xacro\n'}
+[1.788069] (my_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description//urdf/robohand_gazebo.xacro\n'}
+[1.811931] (my_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description//urdf/standalone_arm.urdf.xacro\n'}
+[1.826815] (-) TimerEvent: {}
+[1.846041] (my_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description//launch/display.launch.py\n'}
+[1.863842] (my_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description//launch/display.launch.xml\n'}
+[1.879804] (my_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description//launch/displayrobohand.launch.xml\n'}
+[1.894961] (my_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description//launch/minimal.launch.xml\n'}
+[1.918279] (my_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description//rviz/urdf_config.rviz\n'}
+[1.927496] (-) TimerEvent: {}
+[1.941834] (my_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description//rviz/urdf_config_robohand.rviz\n'}
+[1.962258] (my_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description\n'}
+[1.990691] (my_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description\n'}
+[2.021255] (my_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh\n'}
+[2.028678] (-) TimerEvent: {}
+[2.050615] (my_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv\n'}
+[2.069772] (my_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description/environment/path.sh\n'}
+[2.090355] (my_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description/environment/path.dsv\n'}
+[2.109174] (my_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description/local_setup.bash\n'}
+[2.122246] (my_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description/local_setup.sh\n'}
+[2.128778] (-) TimerEvent: {}
+[2.139065] (my_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description/local_setup.zsh\n'}
+[2.151176] (my_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description/local_setup.dsv\n'}
+[2.165320] (my_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description/package.dsv\n'}
+[2.184096] (my_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description\n'}
+[2.190275] (my_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake\n'}
+[2.200973] (my_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake\n'}
+[2.213758] (my_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_description/share/my_robot_description/package.xml\n'}
+[2.227140] (my_robot_description) CommandEnded: {'returncode': 0}
+[2.230162] (-) TimerEvent: {}
+[2.257207] (my_robot_description) JobEnded: {'identifier': 'my_robot_description', 'rc': 0}
+[2.330268] (-) TimerEvent: {}
+[2.433364] (-) TimerEvent: {}
+[2.533991] (-) TimerEvent: {}
+[2.634743] (-) TimerEvent: {}
+[2.675948] (my_robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[2.734912] (-) TimerEvent: {}
+[2.835461] (-) TimerEvent: {}
+[2.935988] (-) TimerEvent: {}
+[3.037447] (-) TimerEvent: {}
+[3.140341] (-) TimerEvent: {}
+[3.244789] (-) TimerEvent: {}
+[3.307175] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.344984] (-) TimerEvent: {}
+[3.445932] (-) TimerEvent: {}
+[3.546341] (-) TimerEvent: {}
+[3.648441] (-) TimerEvent: {}
+[3.750947] (-) TimerEvent: {}
+[3.854798] (-) TimerEvent: {}
+[3.955122] (-) TimerEvent: {}
+[4.055778] (-) TimerEvent: {}
+[4.156234] (-) TimerEvent: {}
+[4.256811] (-) TimerEvent: {}
+[4.356905] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.357091] (-) TimerEvent: {}
+[4.368424] (my_robot_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[4.457256] (-) TimerEvent: {}
+[4.529703] (my_robot_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[4.557674] (-) TimerEvent: {}
+[4.659576] (-) TimerEvent: {}
+[4.761109] (-) TimerEvent: {}
+[4.861462] (-) TimerEvent: {}
+[4.962034] (-) TimerEvent: {}
+[5.062772] (-) TimerEvent: {}
+[5.166212] (-) TimerEvent: {}
+[5.184890] (my_robot_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[5.267573] (-) TimerEvent: {}
+[5.296056] (my_robot_interfaces) StdoutLine: {'line': b'-- Configuring done (5.3s)\n'}
+[5.369410] (-) TimerEvent: {}
+[5.459594] (my_robot_interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[5.469576] (-) TimerEvent: {}
+[5.482436] (my_robot_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/adi/RosProjects/build/my_robot_interfaces\n'}
+[5.523098] (my_robot_interfaces) CommandEnded: {'returncode': 0}
+[5.523440] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'build'}
+[5.523463] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/adi/RosProjects/build/my_robot_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/adi/RosProjects/build/my_robot_interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2330-62-adi-VMware-Virtual-Platform_TIME236464197', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'adi', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/home/adi/RosProjects/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/adi', 'OLDPWD': '/home/adi', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GZ_SIM_RENDER_ENGINE': 'ogre', 'MANAGERPID': '2079', 'SYSTEMD_EXEC_PID': '2330', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '197921', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/adi/RosProjects/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'adi', 'JOURNAL_STREAM': '9:28876', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'adi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/adi-VMware-Virtual-Platform:@/tmp/.ICE-unix/2290,unix/adi-VMware-Virtual-Platform:/tmp/.ICE-unix/2290', 'INVOCATION_ID': '6b945cf22bc74cfeb0edfd440b55145a', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CQ09H3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/adi/RosProjects/install/my_robot_bringup:/home/adi/RosProjects/install/my_py_pkg:/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/RosProjects/install/my_robot_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:5fb6a099-341a-4306-b7ca-7e84c1d398e5', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/adi/RosProjects/build/my_robot_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/adi/RosProjects/install/my_py_pkg/lib/python3.12/site-packages:/home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/adi/RosProjects/install/my_robot_bringup:/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/RosProjects/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/adi/RosProjects/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[5.571895] (-) TimerEvent: {}
+[5.646949] (my_robot_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[5.672426] (-) TimerEvent: {}
+[5.775226] (-) TimerEvent: {}
+[5.876344] (-) TimerEvent: {}
+[5.977513] (-) TimerEvent: {}
+[6.083286] (-) TimerEvent: {}
+[6.184090] (-) TimerEvent: {}
+[6.228910] (my_robot_interfaces) StdoutLine: {'line': b'[  1%] Built target my_robot_interfaces__rosidl_generator_type_description\n'}
+[6.269121] (my_robot_interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_symlink_my_robot_interfaces\n'}
+[6.285000] (-) TimerEvent: {}
+[6.296295] (my_robot_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[6.385598] (-) TimerEvent: {}
+[6.489112] (-) TimerEvent: {}
+[6.589718] (-) TimerEvent: {}
+[6.690607] (-) TimerEvent: {}
+[6.794627] (-) TimerEvent: {}
+[6.895920] (-) TimerEvent: {}
+[7.002294] (-) TimerEvent: {}
+[7.103592] (-) TimerEvent: {}
+[7.205674] (-) TimerEvent: {}
+[7.307566] (-) TimerEvent: {}
+[7.408916] (-) TimerEvent: {}
+[7.510001] (-) TimerEvent: {}
+[7.610411] (-) TimerEvent: {}
+[7.711321] (-) TimerEvent: {}
+[7.814208] (-) TimerEvent: {}
+[7.915396] (-) TimerEvent: {}
+[8.016809] (-) TimerEvent: {}
+[8.117184] (-) TimerEvent: {}
+[8.217955] (-) TimerEvent: {}
+[8.319913] (-) TimerEvent: {}
+[8.421083] (-) TimerEvent: {}
+[8.524155] (-) TimerEvent: {}
+[8.625929] (-) TimerEvent: {}
+[8.653450] (my_robot_interfaces) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__description.c.o\x1b[0m\n'}
+[8.705373] (my_robot_interfaces) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__functions.c.o\x1b[0m\n'}
+[8.727888] (-) TimerEvent: {}
+[8.768979] (my_robot_interfaces) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__type_support.c.o\x1b[0m\n'}
+[8.828585] (-) TimerEvent: {}
+[8.837349] (my_robot_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__description.c.o\x1b[0m\n'}
+[8.932303] (-) TimerEvent: {}
+[8.985139] (my_robot_interfaces) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c.o\x1b[0m\n'}
+[9.032893] (-) TimerEvent: {}
+[9.121357] (my_robot_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c.o\x1b[0m\n'}
+[9.133313] (-) TimerEvent: {}
+[9.182706] (my_robot_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/battery_status__description.c.o\x1b[0m\n'}
+[9.227433] (my_robot_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/battery_status__functions.c.o\x1b[0m\n'}
+[9.233659] (-) TimerEvent: {}
+[9.300237] (my_robot_interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/battery_status__type_support.c.o\x1b[0m\n'}
+[9.333776] (-) TimerEvent: {}
+[9.341786] (my_robot_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/set_led_status__description.c.o\x1b[0m\n'}
+[9.415321] (my_robot_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/set_led_status__functions.c.o\x1b[0m\n'}
+[9.440203] (-) TimerEvent: {}
+[9.513290] (my_robot_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/set_led_status__type_support.c.o\x1b[0m\n'}
+[9.541749] (-) TimerEvent: {}
+[9.569263] (my_robot_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/action/detail/predator_movement__description.c.o\x1b[0m\n'}
+[9.642384] (-) TimerEvent: {}
+[9.661791] (my_robot_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/action/detail/predator_movement__functions.c.o\x1b[0m\n'}
+[9.745608] (-) TimerEvent: {}
+[9.845973] (-) TimerEvent: {}
+[9.894606] (my_robot_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/action/detail/predator_movement__type_support.c.o\x1b[0m\n'}
+[9.946374] (my_robot_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/spawn_turtle__description.c.o\x1b[0m\n'}
+[9.946715] (-) TimerEvent: {}
+[10.048986] (-) TimerEvent: {}
+[10.074900] (my_robot_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/spawn_turtle__functions.c.o\x1b[0m\n'}
+[10.149514] (-) TimerEvent: {}
+[10.203305] (my_robot_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/spawn_turtle__type_support.c.o\x1b[0m\n'}
+[10.250296] (-) TimerEvent: {}
+[10.320651] (my_robot_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking C shared library libmy_robot_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[10.350531] (-) TimerEvent: {}
+[10.430629] (my_robot_interfaces) StdoutLine: {'line': b'[ 25%] Built target my_robot_interfaces__rosidl_generator_c\n'}
+[10.452188] (-) TimerEvent: {}
+[10.553102] (-) TimerEvent: {}
+[10.653859] (-) TimerEvent: {}
+[10.755977] (-) TimerEvent: {}
+[10.772247] (my_robot_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[10.773671] (my_robot_interfaces) StdoutLine: {'line': b'creating my_robot_interfaces.egg-info\n'}
+[10.798981] (my_robot_interfaces) StdoutLine: {'line': b'writing my_robot_interfaces.egg-info/PKG-INFO\n'}
+[10.800841] (my_robot_interfaces) StdoutLine: {'line': b'writing dependency_links to my_robot_interfaces.egg-info/dependency_links.txt\n'}
+[10.800992] (my_robot_interfaces) StdoutLine: {'line': b'writing top-level names to my_robot_interfaces.egg-info/top_level.txt\n'}
+[10.801110] (my_robot_interfaces) StdoutLine: {'line': b"writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'\n"}
+[10.856104] (-) TimerEvent: {}
+[10.892117] (my_robot_interfaces) StdoutLine: {'line': b"reading manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'\n"}
+[10.896587] (my_robot_interfaces) StdoutLine: {'line': b"writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'\n"}
+[10.935734] (my_robot_interfaces) StdoutLine: {'line': b'[ 25%] Built target ament_cmake_python_build_my_robot_interfaces_egg\n'}
+[10.949299] (my_robot_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[10.956296] (-) TimerEvent: {}
+[11.058688] (-) TimerEvent: {}
+[11.159145] (-) TimerEvent: {}
+[11.259973] (-) TimerEvent: {}
+[11.363104] (-) TimerEvent: {}
+[11.466213] (-) TimerEvent: {}
+[11.566445] (-) TimerEvent: {}
+[11.669206] (-) TimerEvent: {}
+[11.770491] (-) TimerEvent: {}
+[11.871807] (-) TimerEvent: {}
+[11.973657] (-) TimerEvent: {}
+[12.008825] (my_robot_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__type_support.c.o\x1b[0m\n'}
+[12.070231] (my_robot_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c.o\x1b[0m\n'}
+[12.074151] (-) TimerEvent: {}
+[12.156400] (my_robot_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/battery_status__type_support.c.o\x1b[0m\n'}
+[12.174792] (-) TimerEvent: {}
+[12.209880] (my_robot_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/set_led_status__type_support.c.o\x1b[0m\n'}
+[12.273591] (my_robot_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/action/detail/predator_movement__type_support.c.o\x1b[0m\n'}
+[12.279392] (-) TimerEvent: {}
+[12.350540] (my_robot_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/spawn_turtle__type_support.c.o\x1b[0m\n'}
+[12.379923] (-) TimerEvent: {}
+[12.424641] (my_robot_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking C shared library libmy_robot_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[12.481656] (-) TimerEvent: {}
+[12.502403] (my_robot_interfaces) StdoutLine: {'line': b'[ 34%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c\n'}
+[12.522315] (my_robot_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[12.582090] (-) TimerEvent: {}
+[12.682492] (-) TimerEvent: {}
+[12.782891] (-) TimerEvent: {}
+[12.883849] (-) TimerEvent: {}
+[12.992416] (-) TimerEvent: {}
+[13.095509] (-) TimerEvent: {}
+[13.196317] (-) TimerEvent: {}
+[13.264099] (my_robot_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[13.296476] (-) TimerEvent: {}
+[13.334485] (my_robot_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/srv/compute_rectangle_area__type_support.cpp.o\x1b[0m\n'}
+[13.397038] (-) TimerEvent: {}
+[13.428331] (my_robot_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/battery_status__type_support.cpp.o\x1b[0m\n'}
+[13.497763] (-) TimerEvent: {}
+[13.535084] (my_robot_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/srv/set_led_status__type_support.cpp.o\x1b[0m\n'}
+[13.597502] (my_robot_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/action/predator_movement__type_support.cpp.o\x1b[0m\n'}
+[13.599520] (-) TimerEvent: {}
+[13.704185] (-) TimerEvent: {}
+[13.731737] (my_robot_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/srv/spawn_turtle__type_support.cpp.o\x1b[0m\n'}
+[13.807348] (-) TimerEvent: {}
+[13.884269] (my_robot_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[13.915447] (-) TimerEvent: {}
+[13.981402] (my_robot_interfaces) StdoutLine: {'line': b'[ 44%] Built target my_robot_interfaces__rosidl_typesupport_c\n'}
+[13.996278] (my_robot_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.015529] (-) TimerEvent: {}
+[14.116025] (-) TimerEvent: {}
+[14.216346] (-) TimerEvent: {}
+[14.320846] (-) TimerEvent: {}
+[14.421766] (-) TimerEvent: {}
+[14.542641] (-) TimerEvent: {}
+[14.644789] (-) TimerEvent: {}
+[14.747291] (-) TimerEvent: {}
+[14.851729] (-) TimerEvent: {}
+[14.953280] (-) TimerEvent: {}
+[15.055589] (-) TimerEvent: {}
+[15.156764] (-) TimerEvent: {}
+[15.258210] (-) TimerEvent: {}
+[15.364244] (-) TimerEvent: {}
+[15.468738] (-) TimerEvent: {}
+[15.570214] (-) TimerEvent: {}
+[15.670989] (-) TimerEvent: {}
+[15.748797] (my_robot_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/hardware_status__type_support_c.cpp.o\x1b[0m\n'}
+[15.771213] (-) TimerEvent: {}
+[15.872276] (-) TimerEvent: {}
+[15.973793] (-) TimerEvent: {}
+[16.075963] (-) TimerEvent: {}
+[16.176691] (-) TimerEvent: {}
+[16.279827] (-) TimerEvent: {}
+[16.380250] (-) TimerEvent: {}
+[16.389924] (my_robot_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/battery_status__type_support_c.cpp.o\x1b[0m\n'}
+[16.481531] (-) TimerEvent: {}
+[16.584217] (-) TimerEvent: {}
+[16.685028] (-) TimerEvent: {}
+[16.791291] (-) TimerEvent: {}
+[16.891802] (-) TimerEvent: {}
+[16.973992] (my_robot_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/set_led_status__type_support_c.cpp.o\x1b[0m\n'}
+[16.992572] (-) TimerEvent: {}
+[17.093737] (-) TimerEvent: {}
+[17.195628] (-) TimerEvent: {}
+[17.297558] (-) TimerEvent: {}
+[17.397998] (-) TimerEvent: {}
+[17.498766] (-) TimerEvent: {}
+[17.601073] (-) TimerEvent: {}
+[17.637218] (my_robot_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/action/detail/predator_movement__type_support_c.cpp.o\x1b[0m\n'}
+[17.701453] (-) TimerEvent: {}
+[17.802845] (-) TimerEvent: {}
+[17.903742] (-) TimerEvent: {}
+[18.004474] (-) TimerEvent: {}
+[18.105513] (-) TimerEvent: {}
+[18.205885] (-) TimerEvent: {}
+[18.306729] (-) TimerEvent: {}
+[18.388436] (my_robot_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/spawn_turtle__type_support_c.cpp.o\x1b[0m\n'}
+[18.410024] (-) TimerEvent: {}
+[18.510431] (-) TimerEvent: {}
+[18.610917] (-) TimerEvent: {}
+[18.715665] (-) TimerEvent: {}
+[18.816306] (-) TimerEvent: {}
+[18.919884] (-) TimerEvent: {}
+[19.020226] (-) TimerEvent: {}
+[19.035798] (my_robot_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support_c.cpp.o\x1b[0m\n'}
+[19.121623] (-) TimerEvent: {}
+[19.223361] (-) TimerEvent: {}
+[19.323764] (-) TimerEvent: {}
+[19.425278] (-) TimerEvent: {}
+[19.526861] (-) TimerEvent: {}
+[19.629424] (-) TimerEvent: {}
+[19.697816] (my_robot_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[19.729586] (-) TimerEvent: {}
+[19.811629] (my_robot_interfaces) StdoutLine: {'line': b'[ 53%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[19.838608] (-) TimerEvent: {}
+[19.863775] (my_robot_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[19.939214] (-) TimerEvent: {}
+[20.040288] (-) TimerEvent: {}
+[20.140874] (-) TimerEvent: {}
+[20.241547] (-) TimerEvent: {}
+[20.343782] (-) TimerEvent: {}
+[20.444569] (-) TimerEvent: {}
+[20.545674] (-) TimerEvent: {}
+[20.647363] (-) TimerEvent: {}
+[20.747777] (-) TimerEvent: {}
+[20.848364] (-) TimerEvent: {}
+[20.948786] (-) TimerEvent: {}
+[21.051820] (-) TimerEvent: {}
+[21.152437] (-) TimerEvent: {}
+[21.225654] (my_robot_interfaces) StdoutLine: {'line': b'[ 54%] Built target my_robot_interfaces__cpp\n'}
+[21.245690] (my_robot_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[21.253198] (-) TimerEvent: {}
+[21.355189] (-) TimerEvent: {}
+[21.456449] (-) TimerEvent: {}
+[21.558312] (-) TimerEvent: {}
+[21.659237] (-) TimerEvent: {}
+[21.761374] (-) TimerEvent: {}
+[21.865720] (-) TimerEvent: {}
+[21.867996] (my_robot_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[21.966085] (-) TimerEvent: {}
+[22.066722] (-) TimerEvent: {}
+[22.168853] (-) TimerEvent: {}
+[22.274335] (-) TimerEvent: {}
+[22.360265] (my_robot_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/srv/compute_rectangle_area__type_support.cpp.o\x1b[0m\n'}
+[22.374489] (-) TimerEvent: {}
+[22.475537] (-) TimerEvent: {}
+[22.575967] (-) TimerEvent: {}
+[22.676811] (-) TimerEvent: {}
+[22.777967] (-) TimerEvent: {}
+[22.880888] (-) TimerEvent: {}
+[22.985728] (-) TimerEvent: {}
+[23.086367] (-) TimerEvent: {}
+[23.161815] (my_robot_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/battery_status__type_support.cpp.o\x1b[0m\n'}
+[23.187513] (-) TimerEvent: {}
+[23.288466] (-) TimerEvent: {}
+[23.390663] (-) TimerEvent: {}
+[23.491859] (-) TimerEvent: {}
+[23.592811] (-) TimerEvent: {}
+[23.697946] (-) TimerEvent: {}
+[23.766917] (my_robot_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/srv/set_led_status__type_support.cpp.o\x1b[0m\n'}
+[23.798297] (-) TimerEvent: {}
+[23.900569] (-) TimerEvent: {}
+[24.003372] (-) TimerEvent: {}
+[24.105861] (-) TimerEvent: {}
+[24.207371] (-) TimerEvent: {}
+[24.307772] (-) TimerEvent: {}
+[24.322053] (my_robot_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/action/predator_movement__type_support.cpp.o\x1b[0m\n'}
+[24.412069] (-) TimerEvent: {}
+[24.512717] (-) TimerEvent: {}
+[24.614525] (-) TimerEvent: {}
+[24.715611] (-) TimerEvent: {}
+[24.823731] (-) TimerEvent: {}
+[24.924175] (-) TimerEvent: {}
+[25.024861] (-) TimerEvent: {}
+[25.128496] (-) TimerEvent: {}
+[25.233238] (-) TimerEvent: {}
+[25.293517] (my_robot_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/srv/spawn_turtle__type_support.cpp.o\x1b[0m\n'}
+[25.333451] (-) TimerEvent: {}
+[25.433972] (-) TimerEvent: {}
+[25.534645] (-) TimerEvent: {}
+[25.635455] (-) TimerEvent: {}
+[25.740951] (-) TimerEvent: {}
+[25.842609] (-) TimerEvent: {}
+[25.848355] (my_robot_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[25.943917] (-) TimerEvent: {}
+[25.977236] (my_robot_interfaces) StdoutLine: {'line': b'[ 64%] Built target my_robot_interfaces__rosidl_typesupport_cpp\n'}
+[25.993358] (my_robot_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[26.044155] (-) TimerEvent: {}
+[26.144798] (-) TimerEvent: {}
+[26.245265] (-) TimerEvent: {}
+[26.347657] (-) TimerEvent: {}
+[26.449999] (-) TimerEvent: {}
+[26.553077] (-) TimerEvent: {}
+[26.658238] (-) TimerEvent: {}
+[26.759463] (-) TimerEvent: {}
+[26.859761] (-) TimerEvent: {}
+[26.961393] (-) TimerEvent: {}
+[27.066098] (-) TimerEvent: {}
+[27.169011] (-) TimerEvent: {}
+[27.176736] (my_robot_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[27.269597] (-) TimerEvent: {}
+[27.369917] (-) TimerEvent: {}
+[27.471041] (-) TimerEvent: {}
+[27.571877] (-) TimerEvent: {}
+[27.678882] (-) TimerEvent: {}
+[27.730583] (my_robot_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/battery_status__type_support.cpp.o\x1b[0m\n'}
+[27.779146] (-) TimerEvent: {}
+[27.884081] (-) TimerEvent: {}
+[27.984780] (-) TimerEvent: {}
+[28.087991] (-) TimerEvent: {}
+[28.188507] (-) TimerEvent: {}
+[28.292500] (-) TimerEvent: {}
+[28.375045] (my_robot_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/set_led_status__type_support.cpp.o\x1b[0m\n'}
+[28.393118] (-) TimerEvent: {}
+[28.493586] (-) TimerEvent: {}
+[28.595716] (-) TimerEvent: {}
+[28.699322] (-) TimerEvent: {}
+[28.800235] (-) TimerEvent: {}
+[28.901337] (-) TimerEvent: {}
+[29.003484] (-) TimerEvent: {}
+[29.107332] (-) TimerEvent: {}
+[29.208109] (-) TimerEvent: {}
+[29.309331] (-) TimerEvent: {}
+[29.335406] (my_robot_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/action/detail/predator_movement__type_support.cpp.o\x1b[0m\n'}
+[29.412297] (-) TimerEvent: {}
+[29.514068] (-) TimerEvent: {}
+[29.619622] (-) TimerEvent: {}
+[29.722055] (-) TimerEvent: {}
+[29.824509] (-) TimerEvent: {}
+[29.927018] (-) TimerEvent: {}
+[30.027355] (-) TimerEvent: {}
+[30.128214] (-) TimerEvent: {}
+[30.229625] (-) TimerEvent: {}
+[30.330020] (-) TimerEvent: {}
+[30.431819] (-) TimerEvent: {}
+[30.532477] (-) TimerEvent: {}
+[30.634556] (-) TimerEvent: {}
+[30.736469] (-) TimerEvent: {}
+[30.839066] (-) TimerEvent: {}
+[30.942391] (-) TimerEvent: {}
+[31.044158] (-) TimerEvent: {}
+[31.085319] (my_robot_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/spawn_turtle__type_support.cpp.o\x1b[0m\n'}
+[31.145462] (-) TimerEvent: {}
+[31.246938] (-) TimerEvent: {}
+[31.349296] (-) TimerEvent: {}
+[31.451381] (-) TimerEvent: {}
+[31.555688] (-) TimerEvent: {}
+[31.656341] (-) TimerEvent: {}
+[31.758058] (-) TimerEvent: {}
+[31.860911] (-) TimerEvent: {}
+[31.961653] (-) TimerEvent: {}
+[32.066225] (-) TimerEvent: {}
+[32.134812] (my_robot_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.cpp.o\x1b[0m\n'}
+[32.166679] (-) TimerEvent: {}
+[32.267875] (-) TimerEvent: {}
+[32.368822] (-) TimerEvent: {}
+[32.470399] (-) TimerEvent: {}
+[32.575838] (-) TimerEvent: {}
+[32.676242] (-) TimerEvent: {}
+[32.781607] (-) TimerEvent: {}
+[32.789665] (my_robot_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[32.882293] (-) TimerEvent: {}
+[32.936584] (my_robot_interfaces) StdoutLine: {'line': b'[ 73%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[32.953576] (my_robot_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[32.982670] (-) TimerEvent: {}
+[33.083816] (-) TimerEvent: {}
+[33.193547] (-) TimerEvent: {}
+[33.293907] (-) TimerEvent: {}
+[33.394891] (-) TimerEvent: {}
+[33.495411] (-) TimerEvent: {}
+[33.596348] (-) TimerEvent: {}
+[33.696668] (-) TimerEvent: {}
+[33.799657] (-) TimerEvent: {}
+[33.900280] (-) TimerEvent: {}
+[34.002616] (-) TimerEvent: {}
+[34.102915] (-) TimerEvent: {}
+[34.203961] (-) TimerEvent: {}
+[34.212539] (my_robot_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[34.304854] (-) TimerEvent: {}
+[34.408040] (-) TimerEvent: {}
+[34.514287] (-) TimerEvent: {}
+[34.614758] (-) TimerEvent: {}
+[34.716930] (-) TimerEvent: {}
+[34.812875] (my_robot_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/set_led_status__type_support.cpp.o\x1b[0m\n'}
+[34.817333] (-) TimerEvent: {}
+[34.919750] (-) TimerEvent: {}
+[35.020155] (-) TimerEvent: {}
+[35.120791] (-) TimerEvent: {}
+[35.221183] (-) TimerEvent: {}
+[35.322615] (-) TimerEvent: {}
+[35.426443] (-) TimerEvent: {}
+[35.527143] (-) TimerEvent: {}
+[35.586262] (my_robot_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/action/detail/dds_fastrtps/predator_movement__type_support.cpp.o\x1b[0m\n'}
+[35.627640] (-) TimerEvent: {}
+[35.732103] (-) TimerEvent: {}
+[35.833767] (-) TimerEvent: {}
+[35.937631] (-) TimerEvent: {}
+[36.038675] (-) TimerEvent: {}
+[36.142395] (-) TimerEvent: {}
+[36.243368] (-) TimerEvent: {}
+[36.344550] (-) TimerEvent: {}
+[36.446940] (-) TimerEvent: {}
+[36.547842] (-) TimerEvent: {}
+[36.649622] (-) TimerEvent: {}
+[36.750038] (-) TimerEvent: {}
+[36.851143] (-) TimerEvent: {}
+[36.952079] (-) TimerEvent: {}
+[37.055797] (-) TimerEvent: {}
+[37.157795] (-) TimerEvent: {}
+[37.164709] (my_robot_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/spawn_turtle__type_support.cpp.o\x1b[0m\n'}
+[37.258076] (-) TimerEvent: {}
+[37.360385] (-) TimerEvent: {}
+[37.460769] (-) TimerEvent: {}
+[37.561062] (-) TimerEvent: {}
+[37.662789] (-) TimerEvent: {}
+[37.767453] (-) TimerEvent: {}
+[37.871584] (-) TimerEvent: {}
+[37.972083] (-) TimerEvent: {}
+[38.032245] (my_robot_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/battery_status__type_support.cpp.o\x1b[0m\n'}
+[38.072628] (-) TimerEvent: {}
+[38.176181] (-) TimerEvent: {}
+[38.280467] (-) TimerEvent: {}
+[38.381012] (-) TimerEvent: {}
+[38.481600] (-) TimerEvent: {}
+[38.583633] (-) TimerEvent: {}
+[38.685312] (-) TimerEvent: {}
+[38.787864] (-) TimerEvent: {}
+[38.804285] (my_robot_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/compute_rectangle_area__type_support.cpp.o\x1b[0m\n'}
+[38.888104] (-) TimerEvent: {}
+[38.990314] (-) TimerEvent: {}
+[39.092053] (-) TimerEvent: {}
+[39.193647] (-) TimerEvent: {}
+[39.295356] (-) TimerEvent: {}
+[39.397306] (-) TimerEvent: {}
+[39.502487] (-) TimerEvent: {}
+[39.603442] (-) TimerEvent: {}
+[39.704275] (-) TimerEvent: {}
+[39.742825] (my_robot_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[39.804509] (-) TimerEvent: {}
+[39.905352] (-) TimerEvent: {}
+[39.930688] (my_robot_interfaces) StdoutLine: {'line': b'[ 83%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[39.977496] (my_robot_interfaces) StdoutLine: {'line': b'[ 83%] Built target my_robot_interfaces\n'}
+[40.006802] (-) TimerEvent: {}
+[40.015771] (my_robot_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[40.107321] (-) TimerEvent: {}
+[40.207653] (-) TimerEvent: {}
+[40.308016] (-) TimerEvent: {}
+[40.409754] (-) TimerEvent: {}
+[40.511710] (-) TimerEvent: {}
+[40.612297] (-) TimerEvent: {}
+[40.713481] (-) TimerEvent: {}
+[40.814038] (-) TimerEvent: {}
+[40.915366] (-) TimerEvent: {}
+[41.016919] (-) TimerEvent: {}
+[41.117895] (-) TimerEvent: {}
+[41.218716] (-) TimerEvent: {}
+[41.324104] (-) TimerEvent: {}
+[41.425179] (-) TimerEvent: {}
+[41.526261] (-) TimerEvent: {}
+[41.628071] (-) TimerEvent: {}
+[41.728496] (-) TimerEvent: {}
+[41.829396] (-) TimerEvent: {}
+[41.932446] (-) TimerEvent: {}
+[42.034033] (-) TimerEvent: {}
+[42.135022] (-) TimerEvent: {}
+[42.238653] (-) TimerEvent: {}
+[42.346675] (-) TimerEvent: {}
+[42.446987] (-) TimerEvent: {}
+[42.488778] (my_robot_interfaces) StdoutLine: {'line': b'[ 84%] Built target my_robot_interfaces__py\n'}
+[42.541294] (my_robot_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/msg/_hardware_status_s.c.o\x1b[0m\n'}
+[42.547381] (-) TimerEvent: {}
+[42.648114] (-) TimerEvent: {}
+[42.748900] (-) TimerEvent: {}
+[42.835088] (my_robot_interfaces) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/srv/_set_led_status_s.c.o\x1b[0m\n'}
+[42.848958] (-) TimerEvent: {}
+[42.949358] (-) TimerEvent: {}
+[43.047823] (my_robot_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/action/_predator_movement_s.c.o\x1b[0m\n'}
+[43.051170] (-) TimerEvent: {}
+[43.153532] (-) TimerEvent: {}
+[43.255444] (-) TimerEvent: {}
+[43.310690] (my_robot_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/srv/_spawn_turtle_s.c.o\x1b[0m\n'}
+[43.357467] (-) TimerEvent: {}
+[43.457836] (-) TimerEvent: {}
+[43.478393] (my_robot_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/msg/_battery_status_s.c.o\x1b[0m\n'}
+[43.558067] (-) TimerEvent: {}
+[43.633936] (my_robot_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area_s.c.o\x1b[0m\n'}
+[43.658512] (-) TimerEvent: {}
+[43.761462] (-) TimerEvent: {}
+[43.843943] (my_robot_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared library libmy_robot_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[43.861956] (-) TimerEvent: {}
+[43.909866] (my_robot_interfaces) StdoutLine: {'line': b'[ 92%] Built target my_robot_interfaces__rosidl_generator_py\n'}
+[43.948288] (my_robot_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[43.965219] (-) TimerEvent: {}
+[44.066582] (-) TimerEvent: {}
+[44.167833] (my_robot_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[44.168111] (-) TimerEvent: {}
+[44.222528] (my_robot_interfaces) StdoutLine: {'line': b'[ 95%] Built target my_robot_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[44.255428] (my_robot_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[44.268814] (-) TimerEvent: {}
+[44.370433] (-) TimerEvent: {}
+[44.472144] (-) TimerEvent: {}
+[44.501463] (my_robot_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[44.553254] (my_robot_interfaces) StdoutLine: {'line': b'[ 97%] Built target my_robot_interfaces_s__rosidl_typesupport_c\n'}
+[44.573523] (-) TimerEvent: {}
+[44.593350] (my_robot_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/my_robot_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[44.674023] (-) TimerEvent: {}
+[44.775835] (-) TimerEvent: {}
+[44.832812] (my_robot_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[44.885657] (-) TimerEvent: {}
+[44.891406] (my_robot_interfaces) StdoutLine: {'line': b'[100%] Built target my_robot_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[44.938927] (my_robot_interfaces) CommandEnded: {'returncode': 0}
+[44.942987] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'install'}
+[44.943053] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/adi/RosProjects/build/my_robot_interfaces'], 'cwd': '/home/adi/RosProjects/build/my_robot_interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2330-62-adi-VMware-Virtual-Platform_TIME236464197', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'adi', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/home/adi/RosProjects/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/adi', 'OLDPWD': '/home/adi', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GZ_SIM_RENDER_ENGINE': 'ogre', 'MANAGERPID': '2079', 'SYSTEMD_EXEC_PID': '2330', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '197921', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/adi/RosProjects/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'adi', 'JOURNAL_STREAM': '9:28876', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'adi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/adi-VMware-Virtual-Platform:@/tmp/.ICE-unix/2290,unix/adi-VMware-Virtual-Platform:/tmp/.ICE-unix/2290', 'INVOCATION_ID': '6b945cf22bc74cfeb0edfd440b55145a', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CQ09H3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/adi/RosProjects/install/my_robot_bringup:/home/adi/RosProjects/install/my_py_pkg:/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/RosProjects/install/my_robot_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:5fb6a099-341a-4306-b7ca-7e84c1d398e5', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/adi/RosProjects/build/my_robot_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/adi/RosProjects/install/my_py_pkg/lib/python3.12/site-packages:/home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/adi/RosProjects/install/my_robot_bringup:/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/RosProjects/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/adi/RosProjects/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[44.955000] (my_robot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[44.963048] (my_robot_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[44.963667] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces\n'}
+[44.973643] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.json\n'}
+[44.985514] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.json\n'}
+[44.985679] (-) TimerEvent: {}
+[45.002425] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/msg/BatteryStatus.json\n'}
+[45.014113] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLedStatus.json\n'}
+[45.025239] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/action/PredatorMovement.json\n'}
+[45.037166] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/srv/SpawnTurtle.json\n'}
+[45.053443] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/predator_movement__functions.h\n'}
+[45.065412] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/predator_movement__struct.h\n'}
+[45.080876] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/predator_movement__type_support.h\n'}
+[45.086995] (-) TimerEvent: {}
+[45.103061] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/predator_movement.h\n'}
+[45.117170] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/battery_status.h\n'}
+[45.129364] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/battery_status__functions.h\n'}
+[45.147521] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/battery_status__struct.h\n'}
+[45.165826] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/battery_status__type_support.h\n'}
+[45.180753] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__functions.h\n'}
+[45.187233] (-) TimerEvent: {}
+[45.194480] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__struct.h\n'}
+[45.225452] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.h\n'}
+[45.242272] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardware_status.h\n'}
+[45.253781] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[45.267907] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/compute_rectangle_area.h\n'}
+[45.282733] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h\n'}
+[45.290931] (-) TimerEvent: {}
+[45.311947] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h\n'}
+[45.325579] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h\n'}
+[45.337388] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led_status__functions.h\n'}
+[45.348506] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led_status__struct.h\n'}
+[45.360797] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led_status__type_support.h\n'}
+[45.393179] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/spawn_turtle__functions.h\n'}
+[45.393384] (-) TimerEvent: {}
+[45.417925] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/spawn_turtle__struct.h\n'}
+[45.443278] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/spawn_turtle__type_support.h\n'}
+[45.467955] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/set_led_status.h\n'}
+[45.493610] (-) TimerEvent: {}
+[45.515512] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/spawn_turtle.h\n'}
+[45.537719] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh\n'}
+[45.555488] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv\n'}
+[45.585663] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/predator_movement__rosidl_typesupport_fastrtps_c.h\n'}
+[45.594567] (-) TimerEvent: {}
+[45.600862] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/battery_status__rosidl_typesupport_fastrtps_c.h\n'}
+[45.615117] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h\n'}
+[45.632310] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[45.653692] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_c.h\n'}
+[45.683796] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led_status__rosidl_typesupport_fastrtps_c.h\n'}
+[45.695213] (-) TimerEvent: {}
+[45.696368] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/spawn_turtle__rosidl_typesupport_fastrtps_c.h\n'}
+[45.707613] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/predator_movement__rosidl_typesupport_introspection_c.h\n'}
+[45.723992] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/battery_status__rosidl_typesupport_introspection_c.h\n'}
+[45.738182] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h\n'}
+[45.760348] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[45.772052] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_c.h\n'}
+[45.784537] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led_status__rosidl_typesupport_introspection_c.h\n'}
+[45.795151] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/spawn_turtle__rosidl_typesupport_introspection_c.h\n'}
+[45.795314] (-) TimerEvent: {}
+[45.810145] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/predator_movement__builder.hpp\n'}
+[45.841303] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/predator_movement__struct.hpp\n'}
+[45.856613] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/predator_movement__traits.hpp\n'}
+[45.873830] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/predator_movement__type_support.hpp\n'}
+[45.892617] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/predator_movement.hpp\n'}
+[45.895467] (-) TimerEvent: {}
+[45.919548] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/battery_status.hpp\n'}
+[45.932621] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/battery_status__builder.hpp\n'}
+[45.947953] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/battery_status__struct.hpp\n'}
+[45.964902] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/battery_status__traits.hpp\n'}
+[45.978581] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/battery_status__type_support.hpp\n'}
+[45.995670] (-) TimerEvent: {}
+[46.020136] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__builder.hpp\n'}
+[46.037405] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__struct.hpp\n'}
+[46.046973] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__traits.hpp\n'}
+[46.063356] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.hpp\n'}
+[46.071786] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardware_status.hpp\n'}
+[46.081957] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[46.092434] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/compute_rectangle_area.hpp\n'}
+[46.096575] (-) TimerEvent: {}
+[46.109549] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__builder.hpp\n'}
+[46.134424] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.hpp\n'}
+[46.153629] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__traits.hpp\n'}
+[46.169700] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.hpp\n'}
+[46.192633] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led_status__builder.hpp\n'}
+[46.200977] (-) TimerEvent: {}
+[46.218543] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led_status__struct.hpp\n'}
+[46.230876] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led_status__traits.hpp\n'}
+[46.245021] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led_status__type_support.hpp\n'}
+[46.256663] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/spawn_turtle__builder.hpp\n'}
+[46.286503] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/spawn_turtle__struct.hpp\n'}
+[46.295068] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/spawn_turtle__traits.hpp\n'}
+[46.302194] (-) TimerEvent: {}
+[46.309307] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/spawn_turtle__type_support.hpp\n'}
+[46.329937] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/set_led_status.hpp\n'}
+[46.340286] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/spawn_turtle.hpp\n'}
+[46.355947] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/predator_movement__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[46.380323] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/battery_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[46.402296] (-) TimerEvent: {}
+[46.405983] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[46.417907] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[46.436821] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[46.460639] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[46.475504] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/spawn_turtle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[46.489822] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/predator_movement__rosidl_typesupport_introspection_cpp.hpp\n'}
+[46.503137] (-) TimerEvent: {}
+[46.516747] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/battery_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[46.534202] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[46.548278] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_cpp.hpp\n'}
+[46.568528] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[46.580195] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/spawn_turtle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[46.597174] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh\n'}
+[46.603352] (-) TimerEvent: {}
+[46.610998] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv\n'}
+[46.625795] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[46.652211] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[46.665401] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[46.681492] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[46.698313] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/__init__.py\n'}
+[46.705272] (-) TimerEvent: {}
+[46.723659] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[46.751557] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[46.766435] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[46.774687] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/action/__init__.py\n'}
+[46.792590] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/action/_predator_movement.py\n'}
+[46.805591] (-) TimerEvent: {}
+[46.811585] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/action/_predator_movement_s.c\n'}
+[46.825858] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/__init__.py\n'}
+[46.848464] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_battery_status.py\n'}
+[46.862723] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_battery_status_s.c\n'}
+[46.882982] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_hardware_status.py\n'}
+[46.895784] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_hardware_status_s.c\n'}
+[46.907264] (-) TimerEvent: {}
+[46.913562] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so\n'}
+[46.932799] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[46.949862] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[46.963819] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/__init__.py\n'}
+[46.983129] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_compute_rectangle_area.py\n'}
+[47.000439] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_compute_rectangle_area_s.c\n'}
+[47.010030] (-) TimerEvent: {}
+[47.034067] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_set_led_status.py\n'}
+[47.056455] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_set_led_status_s.c\n'}
+[47.069946] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_spawn_turtle.py\n'}
+[47.083043] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_spawn_turtle_s.c\n'}
+[47.099231] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[47.099590] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[47.099765] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so\n'}
+[47.099903] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.idl\n'}
+[47.112592] (-) TimerEvent: {}
+[47.117402] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.idl\n'}
+[47.154505] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/msg/BatteryStatus.idl\n'}
+[47.174677] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLedStatus.idl\n'}
+[47.196014] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/action/PredatorMovement.idl\n'}
+[47.212667] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/srv/SpawnTurtle.idl\n'}
+[47.213624] (-) TimerEvent: {}
+[47.227377] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.msg\n'}
+[47.238954] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.srv\n'}
+[47.249638] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/msg/BatteryStatus.msg\n'}
+[47.281722] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLedStatus.srv\n'}
+[47.298186] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/action/PredatorMovement.action\n'}
+[47.313977] (-) TimerEvent: {}
+[47.318072] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/srv/SpawnTurtle.srv\n'}
+[47.349284] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces\n'}
+[47.368151] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces\n'}
+[47.382823] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh\n'}
+[47.400239] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv\n'}
+[47.414186] (-) TimerEvent: {}
+[47.414868] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh\n'}
+[47.429116] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv\n'}
+[47.444178] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash\n'}
+[47.455085] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh\n'}
+[47.478864] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh\n'}
+[47.493386] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv\n'}
+[47.511310] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv\n'}
+[47.517946] (-) TimerEvent: {}
+[47.525545] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces\n'}
+[47.548398] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[47.560572] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[47.578552] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[47.591470] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[47.607188] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[47.621212] (-) TimerEvent: {}
+[47.636842] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[47.651352] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[47.666805] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake\n'}
+[47.678607] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake\n'}
+[47.693853] (my_robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/package.xml\n'}
+[47.712108] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/adi/RosProjects/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so\n'}
+[47.712298] (my_robot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/adi/RosProjects/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so" to ""\n'}
+[47.712379] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/adi/RosProjects/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[47.717801] (my_robot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/adi/RosProjects/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[47.717964] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/adi/RosProjects/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[47.718999] (my_robot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/adi/RosProjects/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[47.719122] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/adi/RosProjects/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so\n'}
+[47.720364] (my_robot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/adi/RosProjects/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[47.720474] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/adi/RosProjects/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[47.721110] (my_robot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/adi/RosProjects/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[47.721209] (-) TimerEvent: {}
+[47.721298] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/adi/RosProjects/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[47.723882] (my_robot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/adi/RosProjects/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[47.729165] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/adi/RosProjects/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so\n'}
+[47.730608] (my_robot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/adi/RosProjects/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[47.819972] (my_robot_interfaces) StdoutLine: {'line': b"Listing '/home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces'...\n"}
+[47.820156] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/__init__.py'...\n"}
+[47.820228] (my_robot_interfaces) StdoutLine: {'line': b"Listing '/home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/action'...\n"}
+[47.820292] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/action/__init__.py'...\n"}
+[47.820353] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/action/_predator_movement.py'...\n"}
+[47.820414] (my_robot_interfaces) StdoutLine: {'line': b"Listing '/home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg'...\n"}
+[47.820474] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/__init__.py'...\n"}
+[47.820533] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_battery_status.py'...\n"}
+[47.820592] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_hardware_status.py'...\n"}
+[47.820650] (my_robot_interfaces) StdoutLine: {'line': b"Listing '/home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv'...\n"}
+[47.820708] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/__init__.py'...\n"}
+[47.820766] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_compute_rectangle_area.py'...\n"}
+[47.820824] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_set_led_status.py'...\n"}
+[47.820883] (my_robot_interfaces) StdoutLine: {'line': b"Compiling '/home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_spawn_turtle.py'...\n"}
+[47.823911] (-) TimerEvent: {}
+[47.830420] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/adi/RosProjects/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so\n'}
+[47.833921] (my_robot_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/adi/RosProjects/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so" to ""\n'}
+[47.834464] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport.cmake\n'}
+[47.834569] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[47.835436] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[47.835526] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[47.835973] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[47.836469] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[47.836547] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[47.836613] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[47.840061] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cppExport.cmake\n'}
+[47.840311] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[47.840457] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[47.840581] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[47.840705] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[47.840788] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[47.840851] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[47.840915] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport.cmake\n'}
+[47.840978] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/adi/RosProjects/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[47.858197] (my_robot_interfaces) CommandEnded: {'returncode': 0}
+[47.894493] (my_robot_interfaces) JobEnded: {'identifier': 'my_robot_interfaces', 'rc': 0}
+[47.896360] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[47.925108] (-) TimerEvent: {}
+[48.026681] (-) TimerEvent: {}
+[48.126888] (-) TimerEvent: {}
+[48.228460] (-) TimerEvent: {}
+[48.329633] (-) TimerEvent: {}
+[48.433498] (-) TimerEvent: {}
+[48.534722] (-) TimerEvent: {}
+[48.635817] (-) TimerEvent: {}
+[48.736807] (-) TimerEvent: {}
+[48.837341] (-) TimerEvent: {}
+[48.937764] (-) TimerEvent: {}
+[49.035336] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/adi/RosProjects/build/my_py_pkg/build', '--no-deps', 'symlink_data'], 'cwd': '/home/adi/RosProjects/build/my_py_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2330-62-adi-VMware-Virtual-Platform_TIME236464197', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'adi', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/home/adi/RosProjects/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/adi', 'OLDPWD': '/home/adi', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GZ_SIM_RENDER_ENGINE': 'ogre', 'MANAGERPID': '2079', 'SYSTEMD_EXEC_PID': '2330', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '197921', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/adi/RosProjects/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'adi', 'JOURNAL_STREAM': '9:28876', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'adi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/adi-VMware-Virtual-Platform:@/tmp/.ICE-unix/2290,unix/adi-VMware-Virtual-Platform:/tmp/.ICE-unix/2290', 'INVOCATION_ID': '6b945cf22bc74cfeb0edfd440b55145a', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CQ09H3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/adi/RosProjects/install/my_robot_bringup:/home/adi/RosProjects/install/my_py_pkg:/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/RosProjects/install/my_robot_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:5fb6a099-341a-4306-b7ca-7e84c1d398e5', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/adi/RosProjects/build/my_py_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/adi/RosProjects/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adi/RosProjects/install/my_py_pkg/lib/python3.12/site-packages:/home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages:/home/adi/RosProjects/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/RosProjects/install/my_robot_bringup:/home/adi/RosProjects/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[49.043910] (-) TimerEvent: {}
+[49.146048] (-) TimerEvent: {}
+[49.248356] (-) TimerEvent: {}
+[49.348976] (-) TimerEvent: {}
+[49.402519] (my_py_pkg) StdoutLine: {'line': b'running develop\n'}
+[49.449820] (-) TimerEvent: {}
+[49.552469] (-) TimerEvent: {}
+[49.654569] (-) TimerEvent: {}
+[49.664538] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[49.664735] (my_py_pkg) StdoutLine: {'line': b'creating my_py_pkg.egg-info\n'}
+[49.692317] (my_py_pkg) StdoutLine: {'line': b'writing my_py_pkg.egg-info/PKG-INFO\n'}
+[49.692956] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to my_py_pkg.egg-info/dependency_links.txt\n'}
+[49.693248] (my_py_pkg) StdoutLine: {'line': b'writing entry points to my_py_pkg.egg-info/entry_points.txt\n'}
+[49.693539] (my_py_pkg) StdoutLine: {'line': b'writing requirements to my_py_pkg.egg-info/requires.txt\n'}
+[49.693938] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to my_py_pkg.egg-info/top_level.txt\n'}
+[49.694141] (my_py_pkg) StdoutLine: {'line': b"writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'\n"}
+[49.747480] (my_py_pkg) StdoutLine: {'line': b"reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'\n"}
+[49.748385] (my_py_pkg) StdoutLine: {'line': b"writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'\n"}
+[49.754902] (-) TimerEvent: {}
+[49.784964] (my_py_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[49.785184] (my_py_pkg) StdoutLine: {'line': b'Creating /home/adi/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)\n'}
+[49.786144] (my_py_pkg) StdoutLine: {'line': b'Installing PredatorTurtle script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg\n'}
+[49.786651] (my_py_pkg) StdoutLine: {'line': b'Installing PreyTurtle script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg\n'}
+[49.786890] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg\n'}
+[49.787414] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_client_no_oop script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg\n'}
+[49.787981] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_server script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg\n'}
+[49.789041] (my_py_pkg) StdoutLine: {'line': b'Installing battery_charge_status script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg\n'}
+[49.789125] (my_py_pkg) StdoutLine: {'line': b'Installing battery_monitor script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg\n'}
+[49.789195] (my_py_pkg) StdoutLine: {'line': b'Installing hardware_status_publisher script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg\n'}
+[49.789264] (my_py_pkg) StdoutLine: {'line': b'Installing led_panel_node script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg\n'}
+[49.789329] (my_py_pkg) StdoutLine: {'line': b'Installing number_counter script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg\n'}
+[49.789396] (my_py_pkg) StdoutLine: {'line': b'Installing number_publisher script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg\n'}
+[49.790413] (my_py_pkg) StdoutLine: {'line': b'Installing py_node script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg\n'}
+[49.791032] (my_py_pkg) StdoutLine: {'line': b'Installing robot_news_station script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg\n'}
+[49.791135] (my_py_pkg) StdoutLine: {'line': b'Installing smartphone script to /home/adi/RosProjects/install/my_py_pkg/lib/my_py_pkg\n'}
+[49.791505] (my_py_pkg) StdoutLine: {'line': b'\n'}
+[49.791683] (my_py_pkg) StdoutLine: {'line': b'Installed /home/adi/RosProjects/build/my_py_pkg\n'}
+[49.793731] (my_py_pkg) StdoutLine: {'line': b'running symlink_data\n'}
+[49.793976] (my_py_pkg) StdoutLine: {'line': b'creating /home/adi/RosProjects/install/my_py_pkg/share/ament_index\n'}
+[49.794602] (my_py_pkg) StdoutLine: {'line': b'creating /home/adi/RosProjects/install/my_py_pkg/share/ament_index/resource_index\n'}
+[49.795387] (my_py_pkg) StdoutLine: {'line': b'creating /home/adi/RosProjects/install/my_py_pkg/share/ament_index/resource_index/packages\n'}
+[49.795532] (my_py_pkg) StdoutLine: {'line': b'symbolically linking /home/adi/RosProjects/build/my_py_pkg/resource/my_py_pkg -> /home/adi/RosProjects/install/my_py_pkg/share/ament_index/resource_index/packages\n'}
+[49.795692] (my_py_pkg) StdoutLine: {'line': b'symbolically linking /home/adi/RosProjects/build/my_py_pkg/package.xml -> /home/adi/RosProjects/install/my_py_pkg/share/my_py_pkg\n'}
+[49.855899] (-) TimerEvent: {}
+[49.863522] (my_py_pkg) CommandEnded: {'returncode': 0}
+[49.895962] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[49.897286] (my_robot_bringup) JobStarted: {'identifier': 'my_robot_bringup'}
+[49.917061] (my_robot_bringup) JobProgress: {'identifier': 'my_robot_bringup', 'progress': 'cmake'}
+[49.919035] (my_robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '/home/adi/RosProjects/src/my_robot_bringup', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/adi/RosProjects/install/my_robot_bringup'], 'cwd': '/home/adi/RosProjects/build/my_robot_bringup', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2330-62-adi-VMware-Virtual-Platform_TIME236464197', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'adi', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/home/adi/RosProjects/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/adi', 'OLDPWD': '/home/adi', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GZ_SIM_RENDER_ENGINE': 'ogre', 'MANAGERPID': '2079', 'SYSTEMD_EXEC_PID': '2330', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '197921', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/adi/RosProjects/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'adi', 'JOURNAL_STREAM': '9:28876', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'adi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/adi-VMware-Virtual-Platform:@/tmp/.ICE-unix/2290,unix/adi-VMware-Virtual-Platform:/tmp/.ICE-unix/2290', 'INVOCATION_ID': '6b945cf22bc74cfeb0edfd440b55145a', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CQ09H3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/adi/RosProjects/install/my_py_pkg:/home/adi/RosProjects/install/my_robot_bringup:/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/RosProjects/install/my_robot_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:5fb6a099-341a-4306-b7ca-7e84c1d398e5', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/adi/RosProjects/build/my_robot_bringup', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/adi/RosProjects/build/my_py_pkg:/home/adi/RosProjects/install/my_py_pkg/lib/python3.12/site-packages:/home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/RosProjects/install/my_robot_bringup:/home/adi/RosProjects/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/adi/RosProjects/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[49.958280] (-) TimerEvent: {}
+[50.028190] (my_robot_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[50.058579] (-) TimerEvent: {}
+[50.122693] (my_robot_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[50.141544] (my_robot_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[50.158676] (-) TimerEvent: {}
+[50.261069] (-) TimerEvent: {}
+[50.325655] (my_robot_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[50.340338] (my_robot_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[50.340571] (my_robot_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[50.341591] (my_robot_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[50.354055] (my_robot_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[50.362363] (-) TimerEvent: {}
+[50.462812] (-) TimerEvent: {}
+[50.519997] (my_robot_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[50.540581] (my_robot_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[50.540828] (my_robot_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[50.540921] (my_robot_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[50.545550] (my_robot_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[50.567333] (-) TimerEvent: {}
+[50.667827] (-) TimerEvent: {}
+[50.768602] (-) TimerEvent: {}
+[50.869742] (-) TimerEvent: {}
+[50.894895] (my_robot_bringup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[50.971801] (-) TimerEvent: {}
+[51.040467] (my_robot_bringup) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[51.073507] (-) TimerEvent: {}
+[51.174557] (-) TimerEvent: {}
+[51.231992] (my_robot_bringup) StdoutLine: {'line': b'-- Configuring done (1.3s)\n'}
+[51.246924] (my_robot_bringup) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[51.252086] (my_robot_bringup) StdoutLine: {'line': b'-- Build files have been written to: /home/adi/RosProjects/build/my_robot_bringup\n'}
+[51.260621] (my_robot_bringup) CommandEnded: {'returncode': 0}
+[51.262885] (my_robot_bringup) JobProgress: {'identifier': 'my_robot_bringup', 'progress': 'build'}
+[51.262932] (my_robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/adi/RosProjects/build/my_robot_bringup', '--', '-j4', '-l4'], 'cwd': '/home/adi/RosProjects/build/my_robot_bringup', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2330-62-adi-VMware-Virtual-Platform_TIME236464197', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'adi', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/home/adi/RosProjects/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/adi', 'OLDPWD': '/home/adi', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GZ_SIM_RENDER_ENGINE': 'ogre', 'MANAGERPID': '2079', 'SYSTEMD_EXEC_PID': '2330', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '197921', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/adi/RosProjects/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'adi', 'JOURNAL_STREAM': '9:28876', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'adi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/adi-VMware-Virtual-Platform:@/tmp/.ICE-unix/2290,unix/adi-VMware-Virtual-Platform:/tmp/.ICE-unix/2290', 'INVOCATION_ID': '6b945cf22bc74cfeb0edfd440b55145a', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CQ09H3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/adi/RosProjects/install/my_py_pkg:/home/adi/RosProjects/install/my_robot_bringup:/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/RosProjects/install/my_robot_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:5fb6a099-341a-4306-b7ca-7e84c1d398e5', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/adi/RosProjects/build/my_robot_bringup', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/adi/RosProjects/build/my_py_pkg:/home/adi/RosProjects/install/my_py_pkg/lib/python3.12/site-packages:/home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/RosProjects/install/my_robot_bringup:/home/adi/RosProjects/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/adi/RosProjects/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[51.274911] (-) TimerEvent: {}
+[51.361444] (my_robot_bringup) CommandEnded: {'returncode': 0}
+[51.362074] (my_robot_bringup) JobProgress: {'identifier': 'my_robot_bringup', 'progress': 'install'}
+[51.362108] (my_robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/adi/RosProjects/build/my_robot_bringup'], 'cwd': '/home/adi/RosProjects/build/my_robot_bringup', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2330-62-adi-VMware-Virtual-Platform_TIME236464197', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'adi', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/home/adi/RosProjects/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/adi', 'OLDPWD': '/home/adi', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GZ_SIM_RENDER_ENGINE': 'ogre', 'MANAGERPID': '2079', 'SYSTEMD_EXEC_PID': '2330', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '197921', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/adi/RosProjects/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'adi', 'JOURNAL_STREAM': '9:28876', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'adi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/adi-VMware-Virtual-Platform:@/tmp/.ICE-unix/2290,unix/adi-VMware-Virtual-Platform:/tmp/.ICE-unix/2290', 'INVOCATION_ID': '6b945cf22bc74cfeb0edfd440b55145a', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CQ09H3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/adi/RosProjects/install/my_py_pkg:/home/adi/RosProjects/install/my_robot_bringup:/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/RosProjects/install/my_robot_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:5fb6a099-341a-4306-b7ca-7e84c1d398e5', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/adi/RosProjects/build/my_robot_bringup', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/adi/RosProjects/build/my_py_pkg:/home/adi/RosProjects/install/my_py_pkg/lib/python3.12/site-packages:/home/adi/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/adi/RosProjects/install/my_robot_interfaces:/home/adi/RosProjects/install/my_robot_bringup:/home/adi/RosProjects/install/my_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/adi/RosProjects/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[51.377031] (-) TimerEvent: {}
+[51.384871] (my_robot_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[51.387255] (my_robot_bringup) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[51.388960] (my_robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/launch/my_robohand_gazebo.launch.xml\n'}
+[51.401921] (my_robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/launch/my_robot_gazebo.launch.xml\n'}
+[51.413417] (my_robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/launch/number_app.launch.py\n'}
+[51.434609] (my_robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/launch/number_app.launch.xml\n'}
+[51.454509] (my_robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/launch/number_app_from_python.launch.xml\n'}
+[51.464418] (my_robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/launch/robot_news_station.launch.xml\n'}
+[51.474128] (my_robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/config/all_stations.yaml\n'}
+[51.478774] (-) TimerEvent: {}
+[51.494150] (my_robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/config/bb8.yaml\n'}
+[51.511172] (my_robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/config/cp30.yaml\n'}
+[51.536822] (my_robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/config/daneel.yaml\n'}
+[51.555600] (my_robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/config/gazebo_bridge.yaml\n'}
+[51.570847] (my_robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/config/gazebo_bridge_robohand.yaml\n'}
+[51.581392] (-) TimerEvent: {}
+[51.585237] (my_robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/config/giskard.yaml\n'}
+[51.602989] (my_robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/config/lander.yaml\n'}
+[51.618000] (my_robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/config/number_app.yaml\n'}
+[51.630880] (my_robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/worlds/test_world.sdf\n'}
+[51.643959] (my_robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_bringup/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup\n'}
+[51.661284] (my_robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_bringup/share/ament_index/resource_index/parent_prefix_path/my_robot_bringup\n'}
+[51.681306] (my_robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.sh\n'}
+[51.681490] (-) TimerEvent: {}
+[51.702167] (my_robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.dsv\n'}
+[51.726309] (my_robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/environment/path.sh\n'}
+[51.736697] (my_robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/environment/path.dsv\n'}
+[51.750579] (my_robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/local_setup.bash\n'}
+[51.769767] (my_robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/local_setup.sh\n'}
+[51.782302] (-) TimerEvent: {}
+[51.789328] (my_robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/local_setup.zsh\n'}
+[51.803970] (my_robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/local_setup.dsv\n'}
+[51.815036] (my_robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/package.dsv\n'}
+[51.846492] (my_robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_bringup/share/ament_index/resource_index/packages/my_robot_bringup\n'}
+[51.863641] (my_robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig.cmake\n'}
+[51.877753] (my_robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig-version.cmake\n'}
+[51.882692] (-) TimerEvent: {}
+[51.892290] (my_robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/adi/RosProjects/install/my_robot_bringup/share/my_robot_bringup/package.xml\n'}
+[51.916232] (my_robot_bringup) CommandEnded: {'returncode': 0}
+[51.937821] (my_robot_bringup) JobEnded: {'identifier': 'my_robot_bringup', 'rc': 0}
+[51.938571] (-) EventReactorShutdown: {}

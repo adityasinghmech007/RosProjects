@@ -1,3 +1,1 @@
-<launch>
-    <include file = "$(find-pkg-share my_robot_bringup)/launch/number_app.launch.py" />
-</launch>
+/home/adi/RosProjects/src/my_robot_bringup/launch/number_app_from_python.launch.xml

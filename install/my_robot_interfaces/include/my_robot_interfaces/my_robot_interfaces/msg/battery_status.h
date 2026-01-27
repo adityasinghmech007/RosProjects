@@ -1,12 +1,1 @@
-// generated from rosidl_generator_c/resource/idl.h.em
-// with input from my_robot_interfaces:msg/BatteryStatus.idl
-// generated code does not contain a copyright notice
-
-#ifndef MY_ROBOT_INTERFACES__MSG__BATTERY_STATUS_H_
-#define MY_ROBOT_INTERFACES__MSG__BATTERY_STATUS_H_
-
-#include "my_robot_interfaces/msg/detail/battery_status__struct.h"
-#include "my_robot_interfaces/msg/detail/battery_status__functions.h"
-#include "my_robot_interfaces/msg/detail/battery_status__type_support.h"
-
-#endif  // MY_ROBOT_INTERFACES__MSG__BATTERY_STATUS_H_
+/home/adi/RosProjects/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/battery_status.h
