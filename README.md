@@ -1,5 +1,4 @@
 # 🤖 Mobile Manipulator Robot using ROS 2 Jazzy & Gazebo Sim
-# 🤖 Mobile Manipulator Robot using ROS 2 Jazzy & Gazebo Sim
 
 ![ROS2](https://img.shields.io/badge/ROS2-Jazzy-blue)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-24.04-orange)
