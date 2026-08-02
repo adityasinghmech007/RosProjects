@@ -230,6 +230,8 @@ ros2 run tf2_tools view_frames
 <p align="center">
   <img src="rosgraph.svg" width="900"/>
 </p>
+
+
 ## 🎮 Robot Control
 
 After launching the Gazebo simulation, you can control the mobile base and robotic arm using the following commands.
