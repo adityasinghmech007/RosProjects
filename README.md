@@ -343,31 +343,7 @@ The simulation uses the following Gazebo plugins:
 
 ---
 
-# Screenshots
 
-## RViz
-
-_Add screenshot here_
-
----
-
-## Gazebo Simulation
-
-_Add screenshot here_
-
----
-
-## TF Tree
-
-_Add screenshot here_
-
----
-
-## Camera Output
-
-_Add screenshot here_
-
----
 
 # Learning Outcomes
 
