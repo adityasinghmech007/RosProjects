@@ -369,9 +369,9 @@ This project demonstrates practical experience with:
 
 **Systems Engineer | Robotics | Embedded Systems | ROS 2 Developer**
 
-GitHub: https://github.com/<adityasinghmech007>
+GitHub: https://github.com/adityasinghmech007
 
-LinkedIn: https://www.linkedin.com/in/<https://www.linkedin.com/in/adityasingh2024/>
+LinkedIn: <https://www.linkedin.com/in/adityasingh2024/>
 
 ---
 
