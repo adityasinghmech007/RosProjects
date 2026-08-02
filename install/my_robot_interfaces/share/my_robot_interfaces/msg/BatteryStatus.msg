@@ -1,1 +1,2 @@
-/home/adi/RosProjects/src/my_robot_interfaces/msg/BatteryStatus.msg
+float64 batterylevel
+string status_message

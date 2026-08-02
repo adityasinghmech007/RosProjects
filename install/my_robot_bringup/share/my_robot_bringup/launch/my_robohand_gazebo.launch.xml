@@ -1,1 +1,36 @@
-/home/adi/RosProjects/src/my_robot_bringup/launch/my_robohand_gazebo.launch.xml
+<launch>
+    <!-- Paths -->
+    <let name="urdf_path"
+         value="$(find-pkg-share my_robot_description)/urdf/standalone_arm.urdf.xacro" />
+    <let name="gazebo_config_path"
+         value="$(find-pkg-share my_robot_bringup)/config/gazebo_bridge_robohand.yaml" />
+    <let name="rviz_config_path"
+         value="$(find-pkg-share my_robot_description)/rviz/urdf_config_robohand.rviz" />
+
+    <!-- Robot State Publisher -->
+    <node pkg="robot_state_publisher" exec="robot_state_publisher">
+        <param name="robot_description"
+               value="$(command 'xacro $(var urdf_path)')" />
+        <param name="use_sim_time" value="true" />
+    </node>
+
+    <!-- Gazebo with custom world -->
+    <include file="$(find-pkg-share ros_gz_sim)/launch/gz_sim.launch.py">
+        <arg name="gz_args"
+             value="empty.sdf -r" />
+    </include>
+    
+    <node pkg="ros_gz_bridge" exec="parameter_bridge">
+        <param name="config_file" value="$(var gazebo_config_path)" />
+    </node>   
+
+    <!-- Spawn robot into Gazebo -->
+    <node pkg="ros_gz_sim" exec="create"
+          args="-topic robot_description" />
+
+    <!-- RViz -->
+    <node pkg="rviz2" exec="rviz2" output="screen"
+          args="-d $(var rviz_config_path)">
+        <param name="use_sim_time" value="true" />
+    </node>
+</launch>

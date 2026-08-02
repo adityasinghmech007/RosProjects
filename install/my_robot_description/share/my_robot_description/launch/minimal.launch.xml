@@ -1,1 +1,14 @@
-/home/adi/RosProjects/src/my_robot_description/launch/minimal.launch.xml
+<launch>
+    <let name="urdf_path" 
+    value="$(find-pkg-share my_robot_description)/urdf/my_robot.urdf.xacro" />
+    <node pkg="robot_state_publisher" exec="robot_state_publisher">
+    <param name="robot_description"
+           value="$(command 'xacro path/to/my_robot.urdf.xacro')" />
+    </node>
+
+    <node pkg="joint_state_publisher_gui"
+    
+        exec="joint_state_publisher_gui"/>
+
+    <node pkg="rviz2" exec="rviz2"/>
+</launch>

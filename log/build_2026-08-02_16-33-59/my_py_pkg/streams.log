@@ -1,0 +1,95 @@
+[0.697s] Invoking command in '/home/adi/Desktop/RosProjects/src/my_py_pkg': CMAKE_PREFIX_PATH=/home/adi/Desktop/RosProjects/install/my_robot_interfaces:/home/adi/Desktop/RosProjects/install/my_robot_bringup:/home/adi/Desktop/RosProjects/install/my_robot_description:/home/adi/Desktop/turtlebot3_ws/install/turtlebot3_simulations:/home/adi/Desktop/turtlebot3_ws/install/turtlebot3_gazebo:/home/adi/Desktop/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/adi/Desktop/RosProjects/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages:/home/adi/Desktop/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages:/home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/adi/Desktop/RosProjects/build/my_py_pkg/build install --record /home/adi/Desktop/RosProjects/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[0.934s] running egg_info
+[0.934s] creating ../../build/my_py_pkg/my_py_pkg.egg-info
+[0.952s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.952s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.952s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.953s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.953s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.953s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.992s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.992s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.993s] running build
+[0.993s] running build_py
+[0.993s] creating /home/adi/Desktop/RosProjects/build/my_py_pkg/build
+[0.993s] creating /home/adi/Desktop/RosProjects/build/my_py_pkg/build/lib
+[0.993s] creating /home/adi/Desktop/RosProjects/build/my_py_pkg/build/lib/my_py_pkg
+[0.993s] copying my_py_pkg/hardware_status_publisher.py -> /home/adi/Desktop/RosProjects/build/my_py_pkg/build/lib/my_py_pkg
+[0.993s] copying my_py_pkg/PredatorTurtle.py -> /home/adi/Desktop/RosProjects/build/my_py_pkg/build/lib/my_py_pkg
+[0.994s] copying my_py_pkg/number_counter.py -> /home/adi/Desktop/RosProjects/build/my_py_pkg/build/lib/my_py_pkg
+[0.994s] copying my_py_pkg/reset_counter.py -> /home/adi/Desktop/RosProjects/build/my_py_pkg/build/lib/my_py_pkg
+[0.994s] copying my_py_pkg/add_two_ints_client.py -> /home/adi/Desktop/RosProjects/build/my_py_pkg/build/lib/my_py_pkg
+[0.994s] copying my_py_pkg/my_first_node.py -> /home/adi/Desktop/RosProjects/build/my_py_pkg/build/lib/my_py_pkg
+[0.994s] copying my_py_pkg/add_two_ints_server.py -> /home/adi/Desktop/RosProjects/build/my_py_pkg/build/lib/my_py_pkg
+[0.994s] copying my_py_pkg/smartphone.py -> /home/adi/Desktop/RosProjects/build/my_py_pkg/build/lib/my_py_pkg
+[0.994s] copying my_py_pkg/battery_monitor.py -> /home/adi/Desktop/RosProjects/build/my_py_pkg/build/lib/my_py_pkg
+[0.994s] copying my_py_pkg/__init__.py -> /home/adi/Desktop/RosProjects/build/my_py_pkg/build/lib/my_py_pkg
+[0.994s] copying my_py_pkg/number_publisher.py -> /home/adi/Desktop/RosProjects/build/my_py_pkg/build/lib/my_py_pkg
+[0.994s] copying my_py_pkg/template_python_node.py -> /home/adi/Desktop/RosProjects/build/my_py_pkg/build/lib/my_py_pkg
+[0.994s] copying my_py_pkg/PreyTurtle.py -> /home/adi/Desktop/RosProjects/build/my_py_pkg/build/lib/my_py_pkg
+[0.994s] copying my_py_pkg/add_two_ints_client_no_oop.py -> /home/adi/Desktop/RosProjects/build/my_py_pkg/build/lib/my_py_pkg
+[0.995s] copying my_py_pkg/led_panel_node.py -> /home/adi/Desktop/RosProjects/build/my_py_pkg/build/lib/my_py_pkg
+[0.995s] copying my_py_pkg/battery_charge_status.py -> /home/adi/Desktop/RosProjects/build/my_py_pkg/build/lib/my_py_pkg
+[0.995s] copying my_py_pkg/robot_news_station.py -> /home/adi/Desktop/RosProjects/build/my_py_pkg/build/lib/my_py_pkg
+[0.995s] running install
+[1.000s] running install_lib
+[1.019s] creating /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.019s] copying /home/adi/Desktop/RosProjects/build/my_py_pkg/build/lib/my_py_pkg/hardware_status_publisher.py -> /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.019s] copying /home/adi/Desktop/RosProjects/build/my_py_pkg/build/lib/my_py_pkg/PredatorTurtle.py -> /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.020s] copying /home/adi/Desktop/RosProjects/build/my_py_pkg/build/lib/my_py_pkg/number_counter.py -> /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.020s] copying /home/adi/Desktop/RosProjects/build/my_py_pkg/build/lib/my_py_pkg/reset_counter.py -> /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.020s] copying /home/adi/Desktop/RosProjects/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client.py -> /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.020s] copying /home/adi/Desktop/RosProjects/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.020s] copying /home/adi/Desktop/RosProjects/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.020s] copying /home/adi/Desktop/RosProjects/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.020s] copying /home/adi/Desktop/RosProjects/build/my_py_pkg/build/lib/my_py_pkg/battery_monitor.py -> /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.020s] copying /home/adi/Desktop/RosProjects/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.020s] copying /home/adi/Desktop/RosProjects/build/my_py_pkg/build/lib/my_py_pkg/number_publisher.py -> /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.020s] copying /home/adi/Desktop/RosProjects/build/my_py_pkg/build/lib/my_py_pkg/template_python_node.py -> /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.020s] copying /home/adi/Desktop/RosProjects/build/my_py_pkg/build/lib/my_py_pkg/PreyTurtle.py -> /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.020s] copying /home/adi/Desktop/RosProjects/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client_no_oop.py -> /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.020s] copying /home/adi/Desktop/RosProjects/build/my_py_pkg/build/lib/my_py_pkg/led_panel_node.py -> /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.020s] copying /home/adi/Desktop/RosProjects/build/my_py_pkg/build/lib/my_py_pkg/battery_charge_status.py -> /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.021s] copying /home/adi/Desktop/RosProjects/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.021s] byte-compiling /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/hardware_status_publisher.py to hardware_status_publisher.cpython-312.pyc
+[1.021s] byte-compiling /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/PredatorTurtle.py to PredatorTurtle.cpython-312.pyc
+[1.022s] byte-compiling /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/number_counter.py to number_counter.cpython-312.pyc
+[1.022s] byte-compiling /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/reset_counter.py to reset_counter.cpython-312.pyc
+[1.023s] byte-compiling /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/add_two_ints_client.py to add_two_ints_client.cpython-312.pyc
+[1.023s] byte-compiling /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-312.pyc
+[1.024s] byte-compiling /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-312.pyc
+[1.024s] byte-compiling /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-312.pyc
+[1.024s] byte-compiling /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/battery_monitor.py to battery_monitor.cpython-312.pyc
+[1.025s] byte-compiling /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/__init__.py to __init__.cpython-312.pyc
+[1.025s] byte-compiling /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/number_publisher.py to number_publisher.cpython-312.pyc
+[1.026s] byte-compiling /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/template_python_node.py to template_python_node.cpython-312.pyc
+[1.026s] byte-compiling /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/PreyTurtle.py to PreyTurtle.cpython-312.pyc
+[1.027s] byte-compiling /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/add_two_ints_client_no_oop.py to add_two_ints_client_no_oop.cpython-312.pyc
+[1.027s] byte-compiling /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/led_panel_node.py to led_panel_node.cpython-312.pyc
+[1.028s] byte-compiling /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/battery_charge_status.py to battery_charge_status.cpython-312.pyc
+[1.028s] byte-compiling /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-312.pyc
+[1.028s] running install_data
+[1.028s] creating /home/adi/Desktop/RosProjects/install/my_py_pkg/share/ament_index
+[1.029s] creating /home/adi/Desktop/RosProjects/install/my_py_pkg/share/ament_index/resource_index
+[1.029s] creating /home/adi/Desktop/RosProjects/install/my_py_pkg/share/ament_index/resource_index/packages
+[1.029s] copying resource/my_py_pkg -> /home/adi/Desktop/RosProjects/install/my_py_pkg/share/ament_index/resource_index/packages
+[1.029s] copying package.xml -> /home/adi/Desktop/RosProjects/install/my_py_pkg/share/my_py_pkg
+[1.029s] running install_egg_info
+[1.048s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[1.049s] running install_scripts
+[1.170s] Installing PredatorTurtle script to /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[1.170s] Installing PreyTurtle script to /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[1.170s] Installing add_two_ints_client script to /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[1.171s] Installing add_two_ints_client_no_oop script to /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[1.171s] Installing add_two_ints_server script to /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[1.171s] Installing battery_charge_status script to /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[1.171s] Installing battery_monitor script to /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[1.171s] Installing hardware_status_publisher script to /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[1.171s] Installing led_panel_node script to /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[1.171s] Installing number_counter script to /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[1.171s] Installing number_publisher script to /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[1.171s] Installing py_node script to /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[1.171s] Installing robot_news_station script to /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[1.171s] Installing smartphone script to /home/adi/Desktop/RosProjects/install/my_py_pkg/lib/my_py_pkg
+[1.172s] writing list of installed files to '/home/adi/Desktop/RosProjects/build/my_py_pkg/install.log'
+[1.190s] Invoked command in '/home/adi/Desktop/RosProjects/src/my_py_pkg' returned '0': CMAKE_PREFIX_PATH=/home/adi/Desktop/RosProjects/install/my_robot_interfaces:/home/adi/Desktop/RosProjects/install/my_robot_bringup:/home/adi/Desktop/RosProjects/install/my_robot_description:/home/adi/Desktop/turtlebot3_ws/install/turtlebot3_simulations:/home/adi/Desktop/turtlebot3_ws/install/turtlebot3_gazebo:/home/adi/Desktop/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/adi/Desktop/RosProjects/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages:/home/adi/Desktop/RosProjects/install/my_robot_interfaces/lib/python3.12/site-packages:/home/adi/Desktop/RosProjects/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/adi/Desktop/RosProjects/build/my_py_pkg/build install --record /home/adi/Desktop/RosProjects/build/my_py_pkg/install.log --single-version-externally-managed install_data

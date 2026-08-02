@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "my_robot_interfaces/srv/detail/set_led_status__struct.h"
 #include "my_robot_interfaces/srv/detail/set_led_status__functions.h"
-#include "my_robot_interfaces/srv/detail/set_led_status__type_support.h"
+#include "my_robot_interfaces/srv/detail/set_led_status__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "my_robot_interfaces/srv/detail/set_led_status__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

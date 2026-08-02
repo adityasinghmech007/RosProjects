@@ -6,8 +6,8 @@
 
 #include "my_robot_interfaces/action/detail/predator_movement__type_support.h"
 #include "my_robot_interfaces/action/detail/predator_movement__functions.h"
-#include "my_robot_interfaces/action/detail/predator_movement__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "my_robot_interfaces/action/detail/predator_movement__struct.h"
 
 #ifdef __cplusplus
 extern "C"

@@ -1,1 +1,5 @@
-/home/adi/RosProjects/src/my_robot_bringup/config/number_app.yaml
+/my_number_publisher:
+  ros__parameters:
+    number: 6
+    timer_period: 1.50
+    

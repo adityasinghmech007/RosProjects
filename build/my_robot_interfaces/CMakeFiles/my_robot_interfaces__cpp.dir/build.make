@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adi/RosProjects/src/my_robot_interfaces
+CMAKE_SOURCE_DIR = /home/adi/Desktop/RosProjects/src/my_robot_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adi/RosProjects/build/my_robot_interfaces
+CMAKE_BINARY_DIR = /home/adi/Desktop/RosProjects/build/my_robot_interfaces
 
 # Utility rule file for my_robot_interfaces__cpp.
 
@@ -131,8 +131,8 @@ rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp: /opt/ros/jazzy
 rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp: /opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl
 rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp: /opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl
 rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp: /opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/adi/RosProjects/build/my_robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/adi/RosProjects/build/my_robot_interfaces/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/adi/Desktop/RosProjects/build/my_robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/adi/Desktop/RosProjects/build/my_robot_interfaces/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/my_robot_interfaces/msg/detail/hardware_status__builder.hpp: rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_robot_interfaces/msg/detail/hardware_status__builder.hpp
@@ -268,6 +268,6 @@ CMakeFiles/my_robot_interfaces__cpp.dir/clean:
 .PHONY : CMakeFiles/my_robot_interfaces__cpp.dir/clean
 
 CMakeFiles/my_robot_interfaces__cpp.dir/depend:
-	cd /home/adi/RosProjects/build/my_robot_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adi/RosProjects/src/my_robot_interfaces /home/adi/RosProjects/src/my_robot_interfaces /home/adi/RosProjects/build/my_robot_interfaces /home/adi/RosProjects/build/my_robot_interfaces /home/adi/RosProjects/build/my_robot_interfaces/CMakeFiles/my_robot_interfaces__cpp.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/adi/Desktop/RosProjects/build/my_robot_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adi/Desktop/RosProjects/src/my_robot_interfaces /home/adi/Desktop/RosProjects/src/my_robot_interfaces /home/adi/Desktop/RosProjects/build/my_robot_interfaces /home/adi/Desktop/RosProjects/build/my_robot_interfaces /home/adi/Desktop/RosProjects/build/my_robot_interfaces/CMakeFiles/my_robot_interfaces__cpp.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/my_robot_interfaces__cpp.dir/depend
 

@@ -1,0 +1,37 @@
+[0.013s] Invoking command in '/home/adi/Desktop/RosProjects/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adi/Desktop/RosProjects/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adi/Desktop/RosProjects/build/my_robot_description -- -j12 -l12
+[0.056s] Invoked command in '/home/adi/Desktop/RosProjects/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adi/Desktop/RosProjects/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adi/Desktop/RosProjects/build/my_robot_description -- -j12 -l12
+[0.065s] Invoking command in '/home/adi/Desktop/RosProjects/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adi/Desktop/RosProjects/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/adi/Desktop/RosProjects/build/my_robot_description
+[0.071s] -- Install configuration: ""
+[0.072s] -- Up-to-date: /home/adi/Desktop/RosProjects/install/my_robot_description/share/my_robot_description//urdf
+[0.072s] -- Up-to-date: /home/adi/Desktop/RosProjects/install/my_robot_description/share/my_robot_description//urdf/mobile_base.xacro
+[0.072s] -- Installing: /home/adi/Desktop/RosProjects/install/my_robot_description/share/my_robot_description//urdf/my_robot.urdf.xacro
+[0.072s] -- Up-to-date: /home/adi/Desktop/RosProjects/install/my_robot_description/share/my_robot_description//urdf/robohand_gazebo.xacro
+[0.072s] -- Up-to-date: /home/adi/Desktop/RosProjects/install/my_robot_description/share/my_robot_description//urdf/common_properties.xacro
+[0.072s] -- Up-to-date: /home/adi/Desktop/RosProjects/install/my_robot_description/share/my_robot_description//urdf/mobile_base_gazebo.xacro
+[0.072s] -- Up-to-date: /home/adi/Desktop/RosProjects/install/my_robot_description/share/my_robot_description//urdf/camera.xacro
+[0.072s] -- Up-to-date: /home/adi/Desktop/RosProjects/install/my_robot_description/share/my_robot_description//urdf/arm.xacro
+[0.072s] -- Up-to-date: /home/adi/Desktop/RosProjects/install/my_robot_description/share/my_robot_description//urdf/standalone_arm.urdf.xacro
+[0.072s] -- Up-to-date: /home/adi/Desktop/RosProjects/install/my_robot_description/share/my_robot_description//launch
+[0.072s] -- Up-to-date: /home/adi/Desktop/RosProjects/install/my_robot_description/share/my_robot_description//launch/minimal.launch.xml
+[0.072s] -- Installing: /home/adi/Desktop/RosProjects/install/my_robot_description/share/my_robot_description//launch/display.launch.xml
+[0.072s] -- Up-to-date: /home/adi/Desktop/RosProjects/install/my_robot_description/share/my_robot_description//launch/display.launch.py
+[0.072s] -- Up-to-date: /home/adi/Desktop/RosProjects/install/my_robot_description/share/my_robot_description//launch/displayrobohand.launch.xml
+[0.072s] -- Up-to-date: /home/adi/Desktop/RosProjects/install/my_robot_description/share/my_robot_description//rviz
+[0.073s] -- Up-to-date: /home/adi/Desktop/RosProjects/install/my_robot_description/share/my_robot_description//rviz/urdf_config_robohand.rviz
+[0.073s] -- Up-to-date: /home/adi/Desktop/RosProjects/install/my_robot_description/share/my_robot_description//rviz/urdf_config.rviz
+[0.073s] -- Up-to-date: /home/adi/Desktop/RosProjects/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+[0.073s] -- Up-to-date: /home/adi/Desktop/RosProjects/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+[0.073s] -- Up-to-date: /home/adi/Desktop/RosProjects/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+[0.073s] -- Up-to-date: /home/adi/Desktop/RosProjects/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+[0.073s] -- Up-to-date: /home/adi/Desktop/RosProjects/install/my_robot_description/share/my_robot_description/environment/path.sh
+[0.073s] -- Up-to-date: /home/adi/Desktop/RosProjects/install/my_robot_description/share/my_robot_description/environment/path.dsv
+[0.073s] -- Up-to-date: /home/adi/Desktop/RosProjects/install/my_robot_description/share/my_robot_description/local_setup.bash
+[0.073s] -- Up-to-date: /home/adi/Desktop/RosProjects/install/my_robot_description/share/my_robot_description/local_setup.sh
+[0.073s] -- Up-to-date: /home/adi/Desktop/RosProjects/install/my_robot_description/share/my_robot_description/local_setup.zsh
+[0.073s] -- Up-to-date: /home/adi/Desktop/RosProjects/install/my_robot_description/share/my_robot_description/local_setup.dsv
+[0.073s] -- Installing: /home/adi/Desktop/RosProjects/install/my_robot_description/share/my_robot_description/package.dsv
+[0.073s] -- Up-to-date: /home/adi/Desktop/RosProjects/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+[0.073s] -- Up-to-date: /home/adi/Desktop/RosProjects/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+[0.073s] -- Up-to-date: /home/adi/Desktop/RosProjects/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+[0.074s] -- Up-to-date: /home/adi/Desktop/RosProjects/install/my_robot_description/share/my_robot_description/package.xml
+[0.074s] Invoked command in '/home/adi/Desktop/RosProjects/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adi/Desktop/RosProjects/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/adi/Desktop/RosProjects/build/my_robot_description

@@ -1,9 +1,0 @@
-/home/adi/RosProjects/src/build/CMakeFiles/uninstall.dir
-/home/adi/RosProjects/src/build/CMakeFiles/my_robot_description_uninstall.dir
-/home/adi/RosProjects/src/build/CMakeFiles/test.dir
-/home/adi/RosProjects/src/build/CMakeFiles/edit_cache.dir
-/home/adi/RosProjects/src/build/CMakeFiles/rebuild_cache.dir
-/home/adi/RosProjects/src/build/CMakeFiles/list_install_components.dir
-/home/adi/RosProjects/src/build/CMakeFiles/install.dir
-/home/adi/RosProjects/src/build/CMakeFiles/install/local.dir
-/home/adi/RosProjects/src/build/CMakeFiles/install/strip.dir

@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/adi/RosProjects/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so" "TARGETS" "my_robot_interfaces_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/my_robot_interfaces")

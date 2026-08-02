@@ -1,1 +1,12 @@
-/home/adi/RosProjects/build/my_robot_interfaces/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces
+action/PredatorMovement.action
+action/PredatorMovement.idl
+msg/BatteryStatus.idl
+msg/BatteryStatus.msg
+msg/HardwareStatus.idl
+msg/HardwareStatus.msg
+srv/ComputeRectangleArea.idl
+srv/ComputeRectangleArea.srv
+srv/SetLedStatus.idl
+srv/SetLedStatus.srv
+srv/SpawnTurtle.idl
+srv/SpawnTurtle.srv

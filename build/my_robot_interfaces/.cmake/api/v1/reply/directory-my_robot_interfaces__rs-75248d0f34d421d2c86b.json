@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "my_robot_interfaces__rs",
+		"source" : "/home/adi/Desktop/RosProjects/build/my_robot_interfaces/my_robot_interfaces__rs"
+	}
+}
